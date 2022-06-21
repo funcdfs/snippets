@@ -1,0 +1,53 @@
+#popper-container {
+    width: 400px;
+  }
+  .bp3-elevation-4 {
+    border-radius: 8px;
+    box-shadow: 0 2px 22px 0 rgb(15 35 95 / 11%);
+  }
+  #translate-panel {
+    background: white;
+    padding: 5px 7px 10px 7px;
+    border-radius: 8px;
+  }
+  #translate-panel .header {
+    border: 0;
+  }
+  #translate-panel button[title="音视频翻译"],
+  #translate-panel button[title="图片翻译"],
+  #translate-panel button[title="语音翻译"],
+  .bp3-heading,
+  .quick-links {
+    display: none;
+  }
+  .result-block .legend .source {
+    font-size: 14px;
+    line-height: 30px;
+  }
+  .result-block {
+    font-size: 17px;
+    padding: 10px 12px 6px 10px;
+    box-shadow: none;
+  }
+  .result-block:hover {
+    background-color: #F7F7F8;
+  }
+  .result-block .common-result {
+    font-family: 'LXGW zhenkai';
+  }
+  .result-block .common-result .dict > p {
+    position: relative;
+    margin: 10px 0;
+  }
+  .result-block .phonetic {
+    font-weight: bold;
+  }
+  .result-block .dict-pos {
+    font-size: 11px;
+    padding: 1px;
+    background-color: #F7F7F8;
+    border-radius: 4px;
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+  }
