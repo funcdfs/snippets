@@ -194,7 +194,7 @@
     "name": "acwing.com",
     "originalDigest": "d08bd4e81d614abba949f12e58348fa2e98ecfdb",
     "_id": "fde5cba9-2e5a-467b-8870-b5513b49e601",
-    "_rev": 1659765647127,
+    "_rev": 1660819888421,
     "installationUrl": "https://userstyles.world/style/5039",
     "id": 6,
     "updateDate": 1659765647126,
@@ -255,23 +255,6 @@
   },
   {
     "enabled": true,
-    "installDate": 1654564312111,
-    "name": "codeforces.com",
-    "sections": [
-      {
-        "code": "textarea {\n    font-family: go mono, misans !important;\n}\n\n#code_editor{\n    font-family: go mono, misans !important; \n}\npre {\n    font-family: go mono, misans !important; \n}\n.ace_content {\n    font-family: go mono, misans !important; \n}\npre {\n    font-family: go mono, misans !important; \n}\ndiv.ttypography tbody td {\n    text-align: left;\n    border-top: 0px solid #ccc;\n}",
-        "domains": [
-          "codeforces.com"
-        ]
-      }
-    ],
-    "updateDate": 1659158142184,
-    "_id": "7035ff60-3f1a-4696-9185-e3033e87b271",
-    "_rev": 1659158142184,
-    "id": 8
-  },
-  {
-    "enabled": true,
     "updateUrl": "https://userstyles.world/api/style/36.user.css",
     "url": "https://codeberg.org/Freeplay/UserStyles",
     "installDate": 1654564471997,
@@ -315,7 +298,7 @@
     ],
     "updateDate": 1659163671247,
     "_id": "659349b2-8fe6-44a3-9139-c0d8fcff43fd",
-    "_rev": 1659163671247,
+    "_rev": 1660821853952,
     "id": 12
   },
   {
@@ -356,9 +339,87 @@
   },
   {
     "enabled": true,
+    "updateUrl": "https://userstyles.world/api/style/6078.user.css",
+    "url": "https://uso.kkx.one/style/181436",
+    "installDate": 1660298453864,
+    "sections": [
+      {
+        "code": ""
+      }
+    ],
+    "sourceCode": "/* ==UserStyle==\n@name           Codeforces New Design\n@namespace      USO Archive\n@author         rknguyen\n@description    `My codeforces custom, new design.`\n@version        20200323.10.29\n@license        NO-REDISTRIBUTION\n@preprocessor   uso\n==/UserStyle== */\n@-moz-document domain(\"codeforces.com\") {\n    a {\n        text-decoration: none;\n    }\n    textarea {\n        font-family: go mono, misans !important;\n    }\n\n    #code_editor {\n        font-family: go mono, misans !important;\n    }\n    pre {\n        font-family: go mono, misans !important;\n    }\n    .ace_content {\n        font-family: go mono, misans !important;\n    }\n    pre {\n        font-family: go mono, misans !important;\n    }\n    div.ttypography tbody td {\n        text-align: left;\n        border-top: 0px solid #ccc;\n    }\n\n    body {\n        background-color: #F0F2F5;\n    }\n\n    .roundbox-lt,\n    .roundbox-rt,\n    .roundbox-lb,\n    .roundbox-rb {\n        display: none;\n    }\n\n    .roundbox {\n        padding-bottom: 10px;\n        border-radius: 10px;\n    }\n\n    .sidebox.roundbox {\n        margin-top: 10px;\n    }\n\n    .menu-box {\n        margin-top: 0px !important;\n        -webkit-transition: none !important;\n        -moz-transition: none !important;\n        -ms-transition: none !important;\n        -o-transition: none !important;\n        transition: none !important;\n    }\n\n    .menu-box:hover {\n        -webkit-box-shadow: none !important;\n        -moz-box-shadow: none !important;\n        box-shadow: none !important;\n    }\n\n    /** Custom sidebar */\n    .roundbox {\n        margin-top: 10px;\n        border: none;\n        -webkit-transition: all 0.3s linear 0s;\n        -moz-transition: all 0.3s linear 0s;\n        -ms-transition: all 0.3s linear 0s;\n        -o-transition: all 0.3s linear 0s;\n        transition: all 0.3s linear 0s;\n    }\n\n    .roundbox:hover {\n        -webkit-box-shadow: 0 1px 15px 0 rgba(0, 0, 0, 0.1);\n        -moz-box-shadow: 0 1px 15px 0 rgba(0, 0, 0, 0.1);\n        box-shadow: 0 1px 15px 0 rgba(0, 0, 0, 0.1);\n    }\n    .roundbox .titled {\n        padding: 10px;\n        border-bottom-color: #e4e6eb;\n    }\n\n    .sidebox div {\n        border-bottom-color: #e4e6eb !important;\n    }\n\n    /** Sidebar avatar custom */\n    .personal-sidebar .for-avatar {\n        float: none !important;\n        display: block;\n        font-size: 18px;\n        padding: 10px;\n    }\n\n    .personal-sidebar .for-avatar .avatar img {\n        border-radius: 50px;\n        width: 90px;\n        height: 90px;\n        object-fit: cover;\n    }\n\n    /** Sidebar remove property links*/\n    .personal-sidebar .propertyLinks {\n        display: none;\n    }\n\n    .personal-sidebar .nav-links {\n        border-top-style: solid;\n        border-top-width: 1px;\n        border-top-color: #e4e6eb;\n        padding-top: 10px;\n    }\n\n    .personal-sidebar .nav-links li {\n        list-style-type: none !important;\n        padding: 10px;\n        font-size: 13px;\n        border-radius: 5px;\n        -webkit-transition: all 0.2s linear 0s;\n        -moz-transition: all 0.2s linear 0s;\n        -ms-transition: all 0.2s linear 0s;\n        -o-transition: all 0.2s linear 0s;\n        transition: all 0.2s linear 0s;\n    }\n\n    .personal-sidebar .nav-links li a,\n    .personal-sidebar .nav-links li a:visited {\n        color: #050505;\n    }\n\n    .personal-sidebar .nav-links li:after {\n        content: '→';\n        float: right;\n        color: #050505;\n    }\n\n    .personal-sidebar .nav-links li:hover {\n        background-color: rgba(0, 0, 0, 0.05);\n    }\n\n    .personal-sidebar .nav-links li a {\n        text-decoration: none !important;\n    }\n\n    .roundbox .bottom-links {\n        padding: 10px;\n        background-color: #fff;\n        border-top-color: #e4e6eb !important;\n        border-bottom-left-radius: 10px !important;\n        border-bottom-right-radius: 10px !important;\n    }\n\n    .roundbox .rtable .dark {\n        background-color: #fff;\n    }\n    /** Topic custom */\n    .topic {\n        margin-top: 10px;\n        padding: 20px;\n        background-color: #fff;\n        border-radius: 10px;\n        -webkit-transition: all 0.3s linear 0s;\n        -moz-transition: all 0.3s linear 0s;\n        -ms-transition: all 0.3s linear 0s;\n        -o-transition: all 0.3s linear 0s;\n        transition: all 0.3s linear 0s;\n    }\n\n    .topic:hover {\n        -webkit-box-shadow: 0px 1px 15px 0px rgba(0, 0, 0, 0.1);\n        -moz-box-shadow: 0px 1px 15px 0px rgba(0, 0, 0, 0.1);\n        box-shadow: 0px 1px 15px 0px rgba(0, 0, 0, 0.1);\n    }\n\n    .topic .roundbox {\n        border-style: solid;\n        border-color: #e4e6eb;\n    }\n\n    .topic .meta a {\n        text-decoration: none;\n    }\n\n    .meta {\n        padding-bottom: 0px !important;\n    }\n\n    .topic .content {\n        border-left-color: #e4e6eb;\n    }\n    .roundbox .rtable td,\n    .roundbox .rtable th {\n        border-bottom: 1px solid #e4e6eb;\n        border-left: none;\n        padding: 7px;\n    }\n\n    /** Header custom */\n    #header {\n        padding: 20px;\n        margin-top: -14px;\n        background-color: #fff;\n    }\n\n    .menu-box {\n        padding: 10px;\n        border-radius: 0;\n        border-top: none;\n        border-left: none;\n        border-right: none;\n        border-bottom-left-radius: 20px;\n        border-bottom-right-radius: 20px;\n        border-bottom-color: #e4e6eb;\n    }\n\n    /** Footer custom */\n    #footer {\n        background-color: #fff;\n        width: 100%;\n        height: 100%;\n        border-top-left-radius: 20px;\n        border-top-right-radius: 20px;\n        border-top-color: #e4e6eb;\n    }\n\n    /** Contest data table */\n    .datatable .lt,\n    .datatable .rt,\n    .datatable .lb,\n    .datatable .rb,\n    .datatable .ilt,\n    .datatable .irt {\n        display: none;\n    }\n\n    .datatable table {\n        margin-top: 10px;\n        border-style: solid;\n        border-color: #e4e6eb;\n        border-width: 1px;\n    }\n\n    .datatable table .dark {\n        background-color: #fff;\n    }\n\n    .datatable table td {\n        padding-top: 5px;\n        padding-bottom: 5px;\n        padding-left: 10px;\n        padding-right: 10px;\n    }\n\n    .datatable {\n        padding: 20px !important;\n        width: inherit;\n        padding-bottom: 40px !important;\n        background-color: #fff !important;\n        border-radius: 10px;\n        -webkit-transition: all 0.3s linear 0s;\n        -moz-transition: all 0.3s linear 0s;\n        -ms-transition: all 0.3s linear 0s;\n        -o-transition: all 0.3s linear 0s;\n        transition: all 0.3s linear 0s;\n    }\n\n    .datatable:hover {\n        -webkit-box-shadow: 0px 1px 15px 0px rgba(0, 0, 0, 0.1);\n        -moz-box-shadow: 0px 1px 15px 0px rgba(0, 0, 0, 0.1);\n        box-shadow: 0px 1px 15px 0px rgba(0, 0, 0, 0.1);\n    }\n\n    .contests-table::first-line {\n        font-size: 20px;\n        font-weight: bold !important;\n    }\n\n\n    .datatable {\n        margin-top: 10px !important;\n    }\n\n    /** Custom input */\n    input[type=\"submit\"],\n    button {\n        outline: none;\n        height: auto !important;\n        padding: 5px 30px 5px 30px !important;\n        border-radius: 10px;\n        border-width: 1.5px;\n        border-color: #e4e6eb;\n        font-weight: bold;\n        -webkit-transition: all 0.3s linear 0s;\n        -moz-transition: all 0.3s linear 0s;\n        -ms-transition: all 0.3s linear 0s;\n        -o-transition: all 0.3s linear 0s;\n        transition: all 0.3s linear 0s;\n    }\n\n    input[type=\"submit\"]:hover,\n    button:hover {\n        color: rgba(0, 0, 0, 0.7);\n        background-color: #e4e6eb;\n    }\n\n    label[for=searchByProblemCheckbox] {\n        margin-top: 20px !important;\n        color: rgba(0, 0, 0, 0.5);\n    }\n\n    .notice {\n        margin-top: 10px !important;\n    }\n\n    .highlighted-row td,\n    .highlighted-row th {\n        background-color: rgba(221, 238, 255, 0.47) !important;\n    }\n\n    input[name=sourceFile] {\n        border-style: dashed;\n        border-width: 2px;\n        border-color: #e4e6eb;\n        border-radius: 10px;\n        padding: 5px;\n        width: 100%;\n    }\n\n    .submit-form {\n        margin-top: 20px;\n        background-color: #fff;\n        padding: 20px 0 20px 0;\n        border-radius: 10px;\n        -webkit-transition: all 0.3s linear 0s;\n        -moz-transition: all 0.3s linear 0s;\n        -ms-transition: all 0.3s linear 0s;\n        -o-transition: all 0.3s linear 0s;\n        transition: all 0.3s linear 0s;\n    }\n\n    .submit-form:hover {\n        -webkit-box-shadow: 0px 1px 15px 0px rgba(0, 0, 0, 0.1);\n        -moz-box-shadow: 0px 1px 15px 0px rgba(0, 0, 0, 0.1);\n        box-shadow: 0px 1px 15px 0px rgba(0, 0, 0, 0.1);\n    }\n\n    .source-popup pre {\n        padding: 10px;\n        border-style: solid;\n        border-width: 2px;\n        border-color: #e4e6eb;\n    }\n\n    hr {\n        border: 0;\n        height: 2px;\n        background-image: linear-gradient(to right, rgba(228, 230, 235, 0.1), rgba(228, 230, 235, 1), rgba(228, 230, 235, 0.1));\n    }\n\n    .popup-input-div div,\n    .popup-output-div div,\n    .popup-answer-div div,\n    .popup-checker-div div {\n        margin-top: 10px;\n        margin-bottom: 5px;\n    }\n\n    .table-form {\n        padding: 10px;\n    }\n\n    .problemindexholder {\n        margin-top: 10px;\n        background-color: #fff;\n        padding: 20px;\n        border-radius: 10px;\n        -webkit-transition: all 0.3s linear 0s;\n        -moz-transition: all 0.3s linear 0s;\n        -ms-transition: all 0.3s linear 0s;\n        -o-transition: all 0.3s linear 0s;\n        transition: all 0.3s linear 0s;\n    }\n\n    .sample-test {\n        margin-top: 10px;\n    }\n\n    .sample-test .input .title,\n    .sample-test .output .title {\n        font-size: 15px;\n    }\n\n    .sample-test pre {\n        padding-top: 10px !important;\n        padding-bottom: 10px !important;\n        padding-left: 5px !important;\n        padding-right: 5px !important;\n    }\n\n    .placeholder {\n        margin-bottom: 10px !important;\n    }\n\n    a[href^=\"/passwordRecovery\"] {\n        display: block;\n        margin-top: 20px !important;\n    }\n}",
+    "usercssData": {
+      "name": "Codeforces New Design",
+      "namespace": "USO Archive",
+      "author": "rknguyen",
+      "description": "My codeforces custom, new design.",
+      "version": "20200323.10.29",
+      "license": "NO-REDISTRIBUTION",
+      "preprocessor": "uso"
+    },
+    "author": "rknguyen",
+    "description": "My codeforces custom, new design.",
+    "name": "Codeforces New Design",
+    "originalDigest": "431d446bdc1a2a7962dcbfc6719acf1ab18dba2b",
+    "_id": "b606fed9-3ea1-4bc8-ba27-d092492fce3e",
+    "_rev": 1660722872850,
+    "installationUrl": "https://uso.kkx.one/style/181436",
+    "id": 27,
+    "updateDate": 1660299501473,
+    "_usw": {
+      "token": "eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJzdHlsZUlEIjo2MDc4LCJ1c2VySUQiOjkxM30.Z6G56OPFESpEt3kJsi1_BinljLv8bqjpgsNHI8vm0svTjQ79ZCAL_nbZlwrbTdLu9y6cfBBaXO90oG1n9P60fA",
+      "category": "codeforces",
+      "created_at": "2022-08-12T10:18:07.768755261Z",
+      "description": "fengwei2002",
+      "display_name": "",
+      "homepage": "https://github.com/fengwei2002/",
+      "id": 6078,
+      "license": "No License",
+      "mirror_url": "",
+      "name": "Codeforces fengwei2002",
+      "notes": "",
+      "original": "",
+      "preview_url": "",
+      "updated_at": "2022-08-12T10:18:07.768755261Z",
+      "user_id": 913,
+      "username": "fengwei2002"
+    },
+    "customName": "Codeforces fengwei2002"
+  },
+  {
+    "enabled": true,
+    "updateUrl": "https://userstyles.world/api/style/5618.user.css",
+    "url": "https://userstyles.world/style/5618",
+    "installDate": 1660560514190,
+    "sections": [
+      {
+        "code": ""
+      }
+    ],
+    "sourceCode": "/* ==UserStyle==\n@name         Custom LeetCode Editor Font\n@version      20220712.03.07\n@namespace    userstyles.world/user/lance1o7\n@description  This script will change the default font to \"JetBrains Mono NL\".\n@author       lance1o7\n@license      No License\n==/UserStyle== */\n\n@-moz-document domain(\"leetcode.com\") {\n.container__YPDh .CodeMirror {\n    position: absolute;\n    height: 100%;\n    width: 100%;\n    line-height: normal;\n    font-family: \"hack\", 'Monaco', 'Menlo', 'Ubuntu Mono', 'Consolas', 'source-code-pro', monospace;\n    padding: 0;\n    border-radius: 0;\n    border: 0;\n}\n}",
+    "usercssData": {
+      "name": "Custom LeetCode Editor Font",
+      "version": "20220712.03.07",
+      "namespace": "userstyles.world/user/lance1o7",
+      "description": "This script will change the default font to \"JetBrains Mono NL\".",
+      "author": "lance1o7",
+      "license": "No License"
+    },
+    "author": "lance1o7",
+    "description": "This script will change the default font to \"JetBrains Mono NL\".",
+    "name": "Custom LeetCode Editor Font",
+    "originalDigest": "9feb0b1bdb1f939901c8eeb76e27964f0c6583dc",
+    "_id": "10923eca-ef15-4df7-8af2-9b0928d4ea28",
+    "_rev": 1660560530510,
+    "installationUrl": "https://userstyles.world/style/5618",
+    "id": 29,
+    "updateDate": 1660560530510
+  },
+  {
+    "enabled": true,
     "updateUrl": "https://cdn.jsdelivr.net/gh/33kk/uso-archive@flomaster/data/usercss/222074.user.css",
     "url": "https://uso.kkx.one/style/222074",
-    "installDate": 1660297961054,
+    "installDate": 1660723152206,
     "sections": [
       {
         "code": ""
@@ -378,85 +439,10 @@
     "description": "洛谷Luogu去广告",
     "name": "洛谷Luogu去广告",
     "originalDigest": "d75f31d6e1090e365f66cd2c1cca30c81a0f8668",
-    "_id": "bffada77-9ce8-4a4b-98e4-bb7c5ad80d5f",
-    "_rev": 1660297961054,
+    "_id": "3adef886-1335-4bdd-b425-7293281745a9",
+    "_rev": 1660723152207,
     "installationUrl": "https://uso.kkx.one/style/222074",
-    "id": 23
-  },
-  {
-    "enabled": true,
-    "updateUrl": "https://userstyles.world/api/style/5016.user.css",
-    "url": "https://userstyles.world/style/5016",
-    "installDate": 1660298050056,
-    "sections": [
-      {
-        "code": ""
-      }
-    ],
-    "sourceCode": "/* ==UserStyle==\n@name           strange luogu\n@namespace      github.com/openstyles/stylus\n@version        1.0.0\n@description    A new userstyle\n@author         Me\n==/UserStyle== */\n@-moz-document domain(\"luogu.com.cn\") {\n    /*洛谷主站*/\n    /*动画*/\n    @keyframes user {\n        from {\n            margin-top: 0px;\n        }\n        to {\n            margin-top: 20px;\n        }\n    }\n    @keyframes h1 {\n        from {\n            margin-left: -200px;\n        }\n        to {\n            margin-left: 10px;\n        }\n    }\n    /*背景*/\n    body {\n        background-image: url('https://images.unsplash.com/photo-1658901742238-08b63f05e7f2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1218&q=80');\n        background-size: 100% 100%;\n        background-attachment: fixed;\n    }\n    /*顶部*/\n    .wrapper.wrapped.lfe-body,\n    div.wrapper.wrapped.lfe-body.header-layout.narrow {\n        visibility: hidden;\n    }\n    .footer,\n    .header {\n        visibility: visible;\n    }\n    .user-nav[data-v-2dfcfd35] {\n        transition: all 0.5s ease;\n        color: #fff!important;\n        border-radius: 25px;\n        animation: user 1s;\n        margin-top: 20px;\n    }\n    .user-nav[data-v-2dfcfd35]:hover{\n        transition: all 0.5s ease;\n    }\n    .user-nav {\n        color: #fff;\n    }\n    /*主体*/\n    .lfe-body {\n        visibility: hidden;\n    }\n    .clone-card,\n    .card.user-header-container.padding-0,\n    .am-modal-dialog,\n    .am-g.lg-main-content,\n    .container,\n    .lg-index-content.am-center,\n    .full-container {\n        visibility: visible;\n    }\n    .clone-card,\n    .swal2-popup.swal2-modal.swal2-show,\n    .popup[data-v-1d675dd8],\n    .center,\n    .card.padding-none,\n    .am-panel.am-panel-default.lg-summary,\n    .am-g.lg-table-bg0.lg-table-row,\n    .card.padding-default,\n    .lg-article {\n        transition: all 0.5s ease;\n        border-radius: 25px!important;\n        background-color: #fff!important;\n    }\n    .clone-card:hover,\n    .swal2-popup.swal2-modal.swal2-show:hover,\n    .card.padding-none:hover,\n    .popup[data-v-1d675dd8]:hover,\n    .center:hover,\n    card.padding-none:hover,\n    .am-panel.am-panel-default.lg-summary:hover,\n    .am-g.lg-table-bg0.lg-table-row:hover,\n    .card.padding-default:hover,\n    .lg-article:hover {\n        transition: all 0.1s ease;\n        background-color: #fff!important;\n    }\n    .am-comment.am-comment-primary,\n    .am-comment.am-comment-dange{\n        transition: all 0.1s ease;\n    }\n    .am-comment.am-comment-primary:hover,\n    .am-comment.am-comment-danger:hover {\n        transition: all 0.1s ease;\n    }\n    .am-panel.lg-index-contest.am-panel-danger,\n    .am-panel.lg-index-contest.am-panel-success,\n    .am-panel.lg-index-contest.am-panel-primary{\n        border-radius:20px;\n    }\n    .am-panel.lg-index-contest.am-panel-primary{\n        border-color:rgb(120, 52, 219);\n    }\n    /*侧栏*/\n    div[data-v-27b2cd59] {\n        border-radius: 25px 25px 0px 0px;\n        background-color: #fff0!important;\n    }\n    #app > .lfe-body {\n        visibility: visible;\n        top: 130px;\n        border-radius: 25px;\n        height: 430px;\n        background-color: #fff0!important;\n        margin-left:10px;\n    }\n    *#app > .lfe-body > a > .text {\n        opacity: 0;\n        margin-top: -1em;\n        display: block;\n        transition: all 0.3s ease;\n    }\n    #app > .lfe-body > a:hover > .text {\n        opacity: 1;\n        margin-top: 0.2em;\n    }\n    #app > .lfe-body > a {\n        color: #fff !important;\n        height: 3.7em;\n        margin-top: 3px;\n        padding: 0 !important;\n    }\n    .lfe-body>a{\n        transition: all 0.5s ease;\n        border-radius: 10px;\n    }\n    .lfe-body > a:hover {\n        transition: all 0.5s ease;\n        background-color: #fff;\n        color: #000!important;\n    }\n    #app > .lfe-body > a:hover {\n        color: #000!important;\n    }\n    .popup-button{\n        transition: all 0.5s ease;\n        color:#fff;\n        border-radius: 10px!important;\n    }\n    .popup-button:hover {\n        transition: all 0.5s ease;\n        background-color: #fff!important;\n        color: #000!important;\n    }\n    #app > .lfe-body {\n        animation: h1 1s;\n        width: 70px;\n    }\n    a.logo-wrap[data-v-27b2cd59] {\n        width: 70px;\n    }\n    /*字体*/\n    .lfe-h1 {\n        font-size: 40px;\n        animation: h1 0.1s;\n    }\n    nav[data-v-258e49ac],\n    .header-link.color-none,\n    .mdui-list-item-icon.mdui-icon.material-icons,\n    .mdui-drawer {\n        color: #fff;\n    }\n    .lfe-form-sz-small,\n    div[data-v-45591776]>.lfe-form-sz-middle{\n        color:#fff!important;\n    }\n    /*细节*/\n    .lfe-form-sz-small,\n    .am-input-group-label,\n    .am-btn.am-btn-primary.am-btn-sm,\n    .lfe-form-sz-middle[data-v-7ade990c],\n    .input-group.search-filter > button.lfe-form-sz-middle,\n    button.selected,\n    .items > li.selected {\n        background-color: rgb(120, 52, 219)!important;\n        border-color: rgb(120, 52, 219)!important;\n    }\n    div.tag[data-v-2a31ee10],\n    .lfe-caption.tag.selected {\n        background-color: rgb(120, 52, 219)!important;\n    }\n    .am-form-field,\n    .refined-input.input-wrap.frame {\n        border-color: rgb(120, 52, 219)!important;\n    }\n    button[data-v-66021821]:hover {\n        border-color: rgb(120, 52, 219)!important;\n    }\n    .lfe-caption {\n        border-radius: 15px!important;\n    }\n    .test-case {\n        border-radius: 10px;\n    }\n    .progress-frame.has-tooltip>div{\n        background-color:rgb(120, 52, 219)!important;\n        border-radius:0px 10px 10px 0px;\n    }\n    .am-pagination > .am-active > a:hover,\n    .am-pagination > .am-active > a{\n        background-color:rgb(120, 52, 219);\n        border-color:rgb(120, 52, 219);\n    }\n    .am-pagination.am-pagination-centered a{\n        border-radius:10px;\n    }\n    .am-slider-default .am-control-nav li a.am-active{\n        background-color:rgb(120, 52, 219);\n    }\n     .color-default[data-v-303bbf52]:hover,\n    a:hover{\n        color:rgb(120, 52, 219);\n    }\n    .menu[data-v-0e1ae304]{\n        --main-color:rgb(120, 52, 219)!important;\n    }\n    input:enabled + label:hover > .fa-input[data-v-7ecd1f3a]{\n        color:rgb(120, 52, 219)!important;\n    }\n    .clear-filter{\n        color:rgb(120, 52, 219)!important;\n    }\n    input.lfe-form-sz-small,\n    .text.lfe-form-sz-small{\n        color:#000!important;\n        background-color:#fff!important;\n    }\n    .refined-input.input-wrap.input.frame>.lfe-form-sz-middle{\n        color:#000!important;\n    }\n    .copy-btn.lfe-form-sz-middle{\n        color:#fff!important;\n    }\n    .item:hover{\n        border-radius:25px;\n        transition: all 0.5s ease;\n    }\n    /*隐藏广告*/\n    div[data-v-0a593618]{\n        display:none;\n    }\n    /*洛谷有题*/\n    /*顶部*/\n    #app-header{\n        background-color:#fff0;\n    }\n    nav.user-nav{\n        color: #fff!important;\n        border-radius: 25px!important;\n        animation: user 1s;\n        margin-top: 20px;\n    }\n    /*侧栏*/\n    .sm-hide.router-link-active.color-default{\n        border-radius:25px 25px 0px 0px;\n        background-color:#fff0!important;\n    }\n    #app-sidenav{\n        margin-left:10px;\n        margin-top:200px;\n        height:150px;\n        border-radius:25px;\n        background-color:#fff0;\n        animation: h1 1s;\n    }\n    .list-item-container>span{\n        opacity: 0;\n        margin-top: -1em;\n        display: block;\n        transition: all 0.3s ease;\n    }\n    .list-item-container:hover>span{\n        opacity: 1;\n        margin-top: 0.2em;\n        color:#000!important;\n    }\n    .icon.fa.fa-book{\n        opacity:1;\n        color:#fff;\n    }\n    .list-item-container {\n        transition: all 0.5s ease;\n        border-radius: 10px;\n        color: #fff !important;\n        height: 3.7em;\n        margin-top: 3px;\n        padding: 0 !important;\n    }\n    .list-item-container:hover{\n        transition: all 0.5s ease;\n        background-color: #fff;\n    }\n    /*主体*/\n    .card{\n        transition: all 0.5s ease;\n        border-radius:25px;\n        background-color:#ffffffc2;\n    }\n    .card:hover{\n        transition: all 0.5s ease;\n        background-color:#fff;\n    }\n    /*底部*/\n    #app-footer{\n        visibility: hidden;\n    }\n    .width-wrap.min-margin{\n        visibility: visible;\n    }\n}",
-    "usercssData": {
-      "name": "strange luogu",
-      "namespace": "github.com/openstyles/stylus",
-      "version": "1.0.0",
-      "description": "A new userstyle",
-      "author": "Me"
-    },
-    "author": "Me",
-    "description": "A new userstyle",
-    "name": "strange luogu",
-    "originalDigest": "8e9b8bd6fb94109d0761052134f8cfa5a64abfe5",
-    "_id": "f9b1e049-5fdd-4873-b918-f55c7b24175a",
-    "_rev": 1660298413328,
-    "installationUrl": "https://userstyles.world/style/5016",
-    "id": 26,
-    "updateDate": 1660298413328,
-    "_usw": {
-      "token": "eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJzdHlsZUlEIjo2MDc3LCJ1c2VySUQiOjkxM30.D3Conu0qKx8SrYVCwIIkoYTHs-lPU2dktOsvKy6P6r6Knjm8wO64WkZX75Ss3Am4xDNdel5fWHFw45UpCHUECA",
-      "category": "luogu",
-      "created_at": "2022-08-12T09:59:08.719879541Z",
-      "description": "简化，并且保持可读性",
-      "display_name": "",
-      "homepage": "https://github.com/fengwei2002/",
-      "id": 6077,
-      "license": "No License",
-      "mirror_url": "",
-      "name": "fengwei2002 luogu",
-      "notes": "",
-      "original": "",
-      "preview_url": "",
-      "updated_at": "2022-08-12T09:59:08.719879541Z",
-      "user_id": 913,
-      "username": "fengwei2002"
-    },
-    "customName": "fengwei2002 luogu"
-  },
-  {
-    "enabled": true,
-    "updateUrl": "https://cdn.jsdelivr.net/gh/33kk/uso-archive@flomaster/data/usercss/181436.user.css",
-    "url": "https://uso.kkx.one/style/181436",
-    "installDate": 1660298453864,
-    "sections": [
-      {
-        "code": ""
-      }
-    ],
-    "sourceCode": "/* ==UserStyle==\n@name           Codeforces New Design\n@namespace      USO Archive\n@author         rknguyen\n@description    `My codeforces custom, new design.`\n@version        20200323.10.29\n@license        NO-REDISTRIBUTION\n@preprocessor   uso\n==/UserStyle== */\n@-moz-document domain(\"codeforces.com\") {\na {\n \ttext-decoration: none;   \n}\n\nbody {\n\tbackground-color: #F0F2F5;\n}\n\n.roundbox-lt,\n.roundbox-rt,\n.roundbox-lb,\n.roundbox-rb {\n    display: none;\n}\n\n.roundbox {\n    padding-bottom: 10px;\n \tborder-radius: 10px;   \n}\n\n.sidebox.roundbox {\n\tmargin-top: 10px;   \n}\n\n.menu-box {\n \tmargin-top: 0px !important;\n\t-webkit-transition: none !important;\n\t-moz-transition: none !important;\n\t-ms-transition: none !important;\n\t-o-transition: none !important;\n\ttransition: none !important;\n}\n\n.menu-box:hover {\n\t-webkit-box-shadow: none !important;\n\t-moz-box-shadow: none !important;\n\tbox-shadow: none !important;\n}\n\n/** Custom sidebar */\n.roundbox {\n    margin-top: 10px;\n\tborder: none;    \n\t-webkit-transition: all 0.3s linear 0s;\n\t-moz-transition: all 0.3s linear 0s;\n\t-ms-transition: all 0.3s linear 0s;\n\t-o-transition: all 0.3s linear 0s;\n\ttransition: all 0.3s linear 0s;    \n}\n\n.roundbox:hover {\n\t-webkit-box-shadow: 0 1px 15px 0 rgba(0, 0, 0, 0.1);\n\t-moz-box-shadow: 0 1px 15px 0 rgba(0, 0, 0, 0.1);\n\tbox-shadow: 0 1px 15px 0 rgba(0, 0, 0, 0.1);\n}\n.roundbox .titled {\n \tpadding: 10px;\n    border-bottom-color: #e4e6eb;\n}\n\n.sidebox div {\n    border-bottom-color: #e4e6eb !important;\n}\n\n/** Sidebar avatar custom */\n.personal-sidebar .for-avatar {\n\tfloat: none !important;\n\tdisplay: block;\n    font-size: 18px;\n    padding: 10px;\n}\n\n.personal-sidebar .for-avatar .avatar img {\n \tborder-radius: 50px;   \n\twidth: 90px;\n\theight: 90px;\n    object-fit: cover;\n}\n\n/** Sidebar remove property links*/\n.personal-sidebar .propertyLinks {\n    display: none;\n}\n\n.personal-sidebar .nav-links {\n\tborder-top-style: solid;\n    border-top-width: 1px;\n    border-top-color: #e4e6eb;\n    padding-top: 10px;\n}\n\n.personal-sidebar .nav-links li {\n \tlist-style-type: none !important;\n    padding: 10px;\n    font-size: 13px;\n    border-radius: 5px;\n\t-webkit-transition: all 0.2s linear 0s;\n\t-moz-transition: all 0.2s linear 0s;\n\t-ms-transition: all 0.2s linear 0s;\n\t-o-transition: all 0.2s linear 0s;\n\ttransition: all 0.2s linear 0s;    \n}\n\n.personal-sidebar .nav-links li a, .personal-sidebar .nav-links li a:visited {\n    color: #050505;\n}\n\n.personal-sidebar .nav-links li:after {\n \tcontent: '→';\n    float: right;\n    color: #050505;\n}\n\n.personal-sidebar .nav-links li:hover {\n \tbackground-color: rgba(0, 0, 0, 0.05);   \n}\n\n.personal-sidebar .nav-links li a {\n    text-decoration: none !important;\n}\n\n.roundbox .bottom-links {\n    padding: 10px;\n    background-color: #fff;\n    border-top-color: #e4e6eb !important;\n\tborder-bottom-left-radius: 10px !important;\n\tborder-bottom-right-radius: 10px !important;\n}\n\n.roundbox .rtable .dark {\n\tbackground-color: #fff;\n}\n/** Topic custom */\n.topic {\n    margin-top: 10px;\n    padding: 20px;\n\tbackground-color: #fff;\n\tborder-radius: 10px;\n\t-webkit-transition: all 0.3s linear 0s;\n\t-moz-transition: all 0.3s linear 0s;\n\t-ms-transition: all 0.3s linear 0s;\n\t-o-transition: all 0.3s linear 0s;\n\ttransition: all 0.3s linear 0s;    \n}\n\n.topic:hover {\n\t-webkit-box-shadow: 0px 1px 15px 0px rgba(0, 0, 0, 0.1);\n\t-moz-box-shadow: 0px 1px 15px 0px rgba(0, 0, 0, 0.1);\n\tbox-shadow: 0px 1px 15px 0px rgba(0, 0, 0, 0.1);\n}\n\n.topic .roundbox {\n    border-style: solid;\n    border-color: #e4e6eb;\n}\n\n.topic .meta a {\n    text-decoration: none;\n}\n\n.meta {\n\tpadding-bottom: 0px !important;   \n}\n\n.topic .content {\n    border-left-color: #e4e6eb;\n}\n.roundbox .rtable td, .roundbox .rtable th {\n\tborder-bottom: 1px solid #e4e6eb;\n    border-left: none;\n    padding: 7px;\n}\n\n/** Header custom */\n#header {\n    padding: 20px;\n    margin-top: -14px;\n    background-color: #fff;\n}\n\n.menu-box {\n    padding: 10px;\n \tborder-radius: 0;\n    border-top: none;\n    border-left: none;\n    border-right: none;\n    border-bottom-left-radius: 20px;\n    border-bottom-right-radius: 20px;\n    border-bottom-color: #e4e6eb;\n}\n\n/** Footer custom */\n#footer {\n \tbackground-color: #fff;\n    width: 100%;\n    height: 100%;\n    border-top-left-radius: 20px;\n    border-top-right-radius: 20px;\n    border-top-color: #e4e6eb;\n}\n\n/** Contest data table */\n.datatable .lt, .datatable .rt, .datatable .lb, .datatable .rb, .datatable .ilt, .datatable .irt {\n\tdisplay: none;\n}\n\n.datatable table {\n    margin-top: 10px;\n \tborder-style: solid;\n    border-color: #e4e6eb;\n    border-width: 1px;\n}\n\n.datatable table .dark {\n \tbackground-color: #fff;   \n}\n\n.datatable table td {\n \tpadding-top: 5px;\n    padding-bottom: 5px;\n    padding-left: 10px;\n    padding-right: 10px;\n}\n\n.datatable {\n\tpadding: 20px !important;\n\twidth: inherit;\n    padding-bottom: 40px !important;\n\tbackground-color: #fff !important;\n  \tborder-radius: 10px;\n\t-webkit-transition: all 0.3s linear 0s;\n\t-moz-transition: all 0.3s linear 0s;\n\t-ms-transition: all 0.3s linear 0s;\n\t-o-transition: all 0.3s linear 0s;\n\ttransition: all 0.3s linear 0s;    \n}\n\n.datatable:hover {\n\t-webkit-box-shadow: 0px 1px 15px 0px rgba(0, 0, 0, 0.1);\n\t-moz-box-shadow: 0px 1px 15px 0px rgba(0, 0, 0, 0.1);\n\tbox-shadow: 0px 1px 15px 0px rgba(0, 0, 0, 0.1);\n}\n\n.contests-table::first-line {\n    font-size: 20px;\n    font-weight: bold !important;\n}\n\n\n.datatable {\n\tmargin-top: 10px !important;\n}\n\n/** Custom input */\ninput[type=\"submit\"], button {\n    outline: none;\n    height: auto !important;\n\tpadding: 5px 30px 5px 30px !important;\n    border-radius: 10px;\n    border-width: 1.5px;\n    border-color: #e4e6eb;\n    font-weight: bold;\n\t-webkit-transition: all 0.3s linear 0s;\n\t-moz-transition: all 0.3s linear 0s;\n\t-ms-transition: all 0.3s linear 0s;\n\t-o-transition: all 0.3s linear 0s;\n\ttransition: all 0.3s linear 0s;\n}\n\ninput[type=\"submit\"]:hover, button:hover {\n    color: rgba(0, 0, 0, 0.7);\n    background-color: #e4e6eb;\n}\n\nlabel[for=searchByProblemCheckbox] {\n \tmargin-top: 20px !important;\n    color: rgba(0, 0, 0, 0.5);\n}\n\n.notice {\n\tmargin-top: 10px !important;\n}\n\n.highlighted-row td, .highlighted-row th {\n\tbackground-color: rgba(221, 238, 255, 0.47) !important;\n}\n\ninput[name=sourceFile] {\n \tborder-style: dashed;\n    border-width: 2px;\n    border-color: #e4e6eb;\n    border-radius: 10px;\n    padding: 5px;\n    width: 100%;\n}\n\n.submit-form {\n    margin-top: 20px;\n \tbackground-color: #fff;\n\tpadding: 20px 0 20px 0;\n\tborder-radius: 10px;\n\t-webkit-transition: all 0.3s linear 0s;\n\t-moz-transition: all 0.3s linear 0s;\n\t-ms-transition: all 0.3s linear 0s;\n\t-o-transition: all 0.3s linear 0s;\n\ttransition: all 0.3s linear 0s;    \n}\n\n.submit-form:hover {\n\t-webkit-box-shadow: 0px 1px 15px 0px rgba(0, 0, 0, 0.1);\n\t-moz-box-shadow: 0px 1px 15px 0px rgba(0, 0, 0, 0.1);\n\tbox-shadow: 0px 1px 15px 0px rgba(0, 0, 0, 0.1);\n}\n\n.source-popup pre {\n \tpadding: 10px;\n \tborder-style: solid;\n    border-width: 2px;\n    border-color: #e4e6eb;\n}\n\nhr {\n\tborder: 0;\n    height: 2px;\n    background-image: linear-gradient(to right, rgba(228, 230, 235, 0.1), rgba(228, 230, 235, 1), rgba(228, 230, 235, 0.1));\n}\n\n.popup-input-div div, .popup-output-div div, .popup-answer-div div, .popup-checker-div div {\n \tmargin-top: 10px;\n    margin-bottom: 5px;\n}\n\n.table-form {\n \tpadding: 10px;   \n}\n\n.problemindexholder {\n    margin-top: 10px;\n\tbackground-color: #fff;\n\tpadding: 20px;\n\tborder-radius: 10px;\n\t-webkit-transition: all 0.3s linear 0s;\n\t-moz-transition: all 0.3s linear 0s;\n\t-ms-transition: all 0.3s linear 0s;\n\t-o-transition: all 0.3s linear 0s;\n\ttransition: all 0.3s linear 0s;  \n}\n\n.sample-test {\n \tmargin-top: 10px;   \n}\n\n.sample-test .input .title, .sample-test .output .title {\n \tfont-size: 15px;   \n}\n\n.sample-test pre {\n \tpadding-top: 10px !important;   \n\tpadding-bottom: 10px !important;   \n    padding-left: 5px !important;   \n    padding-right: 5px !important;   \n}\n\n.placeholder {\n    margin-bottom: 10px !important;\n}\n\na[href^=\"/passwordRecovery\"] {\n    display: block;\n \tmargin-top: 20px !important;   \n}\n}",
-    "usercssData": {
-      "name": "Codeforces New Design",
-      "namespace": "USO Archive",
-      "author": "rknguyen",
-      "description": "My codeforces custom, new design.",
-      "version": "20200323.10.29",
-      "license": "NO-REDISTRIBUTION",
-      "preprocessor": "uso"
-    },
-    "author": "rknguyen",
-    "description": "My codeforces custom, new design.",
-    "name": "Codeforces New Design",
-    "originalDigest": "aa19bea3bca5c221f676aea626c5173a5a1b923e",
-    "_id": "b606fed9-3ea1-4bc8-ba27-d092492fce3e",
-    "_rev": 1660298453865,
-    "installationUrl": "https://uso.kkx.one/style/181436",
-    "id": 27
+    "id": 38,
+    "etag": "W/\"2a8-Jf3lWBPpQUfHeN1kIU+BKLWIZAU\""
   }
 ]
