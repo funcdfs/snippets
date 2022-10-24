@@ -28,8 +28,6 @@ set nobackup                    " do not keep a backup file
 
 set novisualbell                " turn off visual bell
 set noerrorbells                " don't beep
-set visualbell t_vb=            " turn off error beep/flash
-set t_vb=
 set tm=500
 
 
@@ -266,3 +264,6 @@ highlight CursorColumn cterm=NONE ctermbg=NONE ctermfg=NONE guibg=NONE guifg=NON
 set noswapfile
 set mouse=a
 colorscheme atom-dark-256
+
+set shortmess=a
+set cmdheight=2

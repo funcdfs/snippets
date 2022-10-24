@@ -1,0 +1,68 @@
+format = """
+$username\
+$directory\
+$git_branch\
+$git_status\
+$c\
+$golang\
+$java\
+$nodejs\
+$rust\
+$time\
+$character
+"""
+
+add_newline = false
+
+[username]
+show_always = true
+
+[character]
+success_symbol = "[>](bold green)"
+error_symbol = "[x](bold red)"
+vimcmd_symbol = "[<](bold green)"
+
+[git_commit]
+tag_symbol = " tag "
+
+[git_status]
+ahead = ">"
+behind = "<"
+diverged = "<>"
+renamed = "r"
+deleted = "x"
+
+[c]
+symbol = "C "
+
+[dotnet]
+symbol = ".NET "
+
+[directory]
+truncation_length = 3
+truncation_symbol = "…/"
+read_only = " ro"
+
+[git_branch]
+symbol = "git "
+
+[golang]
+symbol = "go "
+
+[java]
+symbol = "java "
+
+[nodejs]
+symbol = "nodejs "
+
+[package]
+symbol = "pkg "
+
+[python]
+symbol = "py "
+
+[rust]
+symbol = "rs "
+
+[sudo]
+symbol = "sudo "
