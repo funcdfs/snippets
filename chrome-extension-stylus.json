@@ -31,6 +31,7 @@
       "manage.actions.expanded": true,
       "manage.backup.expanded": true,
       "manage.filters.expanded": true,
+      "manage.minColumnWidth": 750,
       "manage.newUI": true,
       "manage.newUI.favicons": false,
       "manage.newUI.faviconsGray": true,
@@ -67,6 +68,7 @@
       "editor.autocompleteOnTyping": true,
       "editor.contextDelete": false,
       "editor.selectByTokens": true,
+      "editor.arrowKeysTraverse": true,
       "editor.appliesToLineWidget": true,
       "editor.autosaveDraft": 10,
       "editor.livePreview": true,
@@ -103,7 +105,7 @@
         "code": ""
       }
     ],
-    "sourceCode": "/* ==UserStyle==\n@name         leetcode black mode selection color\n@version      20220208.05.48\n@namespace    userstyles.world/user/fengwei2002\n@description  leetcode.cn\n@author       fengwei2002\n@license      No License\n==/UserStyle== */\n\n@-moz-document domain(\"leetcode.cn\") {\npre,\n.CodeMirror {\n    font-family: codenewroman nfm, misans !important; \n    line-height: 18px;\n}\n::-webkit-scrollbar {\n  width: 8px;\n  height: 8px;\n}\n\n::-webkit-scrollbar-thumb {\n  background: #DEE1E6 !important;\n}   \n    .CodeMirror,\n    .font-menlo,\n    code,\n    pre {\n        font-family: source code pro !important; \n        font-weight: 500; \n    }\n\n}",
+    "sourceCode": "/* ==UserStyle==\n@name         leetcode black mode selection color\n@version      20220208.05.48\n@namespace    userstyles.world/user/fengwei2002\n@description  leetcode.cn\n@author       fengwei2002\n@license      No License\n==/UserStyle== */\n\n@-moz-document domain(\"leetcode.cn\") {\npre,\n.CodeMirror {\n    font-family: codenewroman nfm, misans !important; \n    line-height: 18px;\n}\n::-webkit-scrollbar {\n  width: 8px;\n  height: 8px;\n}\n\n::-webkit-scrollbar-thumb {\n  background: #DEE1E6 !important;\n}   \n    .CodeMirror,\n    .font-menlo,\n    code,\n    pre {\n        font-family: source code pro !important; \n        font-weight: 500; \n    }\n}\n\n.css-120p8a-card-text,\n.css-h6vf0p-card-Box {\n    display: none !important;  \n}",
     "usercssData": {
       "name": "leetcode black mode selection color",
       "version": "20220208.05.48",
@@ -117,7 +119,7 @@
     "name": "leetcode black mode selection color",
     "originalDigest": "459cc05764a791f044d521eb528c69ae1c455177",
     "_id": "9083c2da-acd1-4cbd-a48d-105d5679fd63",
-    "_rev": 1667654165015,
+    "_rev": 1677588190687,
     "installationUrl": "https://userstyles.world/style/1348",
     "id": 2,
     "_usw": {
@@ -139,7 +141,7 @@
       "username": "fengwei2002"
     },
     "customName": "leetcode.cn DIY ",
-    "updateDate": 1667654165015
+    "updateDate": 1677588190687
   },
   {
     "enabled": true,
@@ -165,7 +167,7 @@
     "name": "notion code fix",
     "originalDigest": "ad22c5be79dd9bba7d9003224192c61048d75a05",
     "_id": "3ed30983-22bd-4ffd-b5f2-86f6753596ed",
-    "_rev": 1654744499357,
+    "_rev": 1677587611662,
     "installationUrl": "https://userstyles.world/style/908",
     "id": 4,
     "updateDate": 1654744499357
@@ -194,7 +196,7 @@
     "name": "acwing.com",
     "originalDigest": "d08bd4e81d614abba949f12e58348fa2e98ecfdb",
     "_id": "fde5cba9-2e5a-467b-8870-b5513b49e601",
-    "_rev": 1668343241843,
+    "_rev": 1677587611664,
     "installationUrl": "https://userstyles.world/style/5039",
     "id": 6,
     "updateDate": 1668343241843,
@@ -244,7 +246,7 @@
     "name": "Cleaner Stylus",
     "originalDigest": "d648f234c16a9188b702bf8534c49834d8f0802a",
     "_id": "4fca26bc-0c77-4558-b2aa-c6890442d4b0",
-    "_rev": 1663496601618,
+    "_rev": 1677587611664,
     "installationUrl": "https://userstyles.world/style/36",
     "id": 9,
     "updateDate": 1663496601593
@@ -264,7 +266,7 @@
     ],
     "updateDate": 1665732118925,
     "_id": "bd108cb9-4f0b-4319-8a2c-11d607a5de0d",
-    "_rev": 1665732118925,
+    "_rev": 1677587611809,
     "id": 13,
     "_usw": {
       "token": "eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJzdHlsZUlEIjo1NTIyLCJ1c2VySUQiOjkxM30.h2oXbOc0i3qJusfPPoXV8Y4ClV1UA_pnT_FB3cbmf4uZy1TE2HgFMEgY6Epqbk6NFAHfoKrCc7o4wKx4vnDDOA",
@@ -310,7 +312,7 @@
     "name": "Codeforces New Design",
     "originalDigest": "431d446bdc1a2a7962dcbfc6719acf1ab18dba2b",
     "_id": "b606fed9-3ea1-4bc8-ba27-d092492fce3e",
-    "_rev": 1665899290468,
+    "_rev": 1677587611809,
     "installationUrl": "https://uso.kkx.one/style/181436",
     "id": 27,
     "updateDate": 1665899290468,
@@ -359,7 +361,7 @@
     "name": "洛谷Luogu去广告",
     "originalDigest": "d75f31d6e1090e365f66cd2c1cca30c81a0f8668",
     "_id": "3adef886-1335-4bdd-b425-7293281745a9",
-    "_rev": 1660723152207,
+    "_rev": 1677587611815,
     "installationUrl": "https://uso.kkx.one/style/222074",
     "id": 38,
     "etag": "W/\"2a8-Jf3lWBPpQUfHeN1kIU+BKLWIZAU\""
@@ -388,7 +390,7 @@
     "name": "Deepl Clear TOP-DOWN Translator",
     "originalDigest": "f2eb3c96641923c7c5ef08cf17f6a104250b927e",
     "_id": "7c52d77f-24da-475c-b372-6c62d17fbf1e",
-    "_rev": 1660877060053,
+    "_rev": 1677587611816,
     "installationUrl": "https://userstyles.world/style/3860",
     "id": 41
   },
@@ -417,7 +419,7 @@
     "name": "CleanDeepL",
     "originalDigest": "aa53f95a766ad43a1440a78586fa0b2f587d3894",
     "_id": "0063568b-b941-467f-8c1d-e42094f6be29",
-    "_rev": 1660877069406,
+    "_rev": 1677587611818,
     "installationUrl": "https://uso.kkx.one/style/181111",
     "id": 42,
     "etag": "W/\"308-pZ9QkR2AJrWo8LkUZGk3fVo006g\""
@@ -443,7 +445,7 @@
     "name": "www.luogu.com.cn - 2022/8/19 12:11:46",
     "updateDate": 1660961780585,
     "_id": "1413a2af-5e92-4f08-a9e5-559df38d9b06",
-    "_rev": 1665830311511,
+    "_rev": 1677587611819,
     "id": 43
   },
   {
@@ -467,7 +469,7 @@
     "name": "atcoder.jp - 2022/8/21 17:49:28",
     "updateDate": 1661075382966,
     "_id": "a637f8c6-662f-4f5f-aad4-c899758b3aee",
-    "_rev": 1666242637529,
+    "_rev": 1677587611819,
     "id": 44
   },
   {
@@ -535,7 +537,7 @@
     "name": "YouTube - Nyan Cat progress bar video player theme",
     "originalDigest": "cfb38a924c3c23928728e45c54d09aec9bc73f74",
     "_id": "5f8f3d95-2fda-4a36-9ab0-15c76f7f0c5a",
-    "_rev": 1661265831748,
+    "_rev": 1677587611820,
     "installationUrl": "https://uso.kkx.one/style/95033",
     "id": 46,
     "etag": "W/\"2ac2-jFDCQrptxmwfM+MKKl1VAdVQuNk\""
@@ -563,7 +565,7 @@
     "name": "fengwei2002",
     "originalDigest": "4c1fc338db259e7085d9969493a6017b8d7c50be",
     "_id": "476abc6f-d4cd-4d9d-8a9b-863be85b521a",
-    "_rev": 1665898598818,
+    "_rev": 1677587611821,
     "installationUrl": "https://userstyles.world/style/6077",
     "id": 55,
     "updateDate": 1665898598818,
@@ -600,7 +602,7 @@
     ],
     "updateDate": 1667279071635,
     "_id": "d2ec6c7b-6718-4b88-b275-baa28a6a544d",
-    "_rev": 1667279071635,
+    "_rev": 1677587611822,
     "id": 56
   },
   {
@@ -617,7 +619,7 @@
     ],
     "updateDate": 1668094065652,
     "_id": "376df7f1-9ae6-461d-90f6-b2463e2cbdb8",
-    "_rev": 1668094065652,
+    "_rev": 1677587611822,
     "id": 57
   }
 ]
