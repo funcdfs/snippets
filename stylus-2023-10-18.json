@@ -1,0 +1,587 @@
+[
+  {
+    "settings": {
+      "openEditInWindow": true,
+      "openEditInWindow.popup": false,
+      "windowPosition": {},
+      "show-badge": true,
+      "disableAll": false,
+      "exposeIframes": false,
+      "exposeStyleName": false,
+      "newStyleAsUsercss": false,
+      "styleViaXhr": true,
+      "patchCsp": false,
+      "urlInstaller": true,
+      "config.autosave": true,
+      "schemeSwitcher.enabled": "light",
+      "schemeSwitcher.nightStart": "18:00",
+      "schemeSwitcher.nightEnd": "06:00",
+      "popup.breadcrumbs": true,
+      "popup.breadcrumbs.usePath": false,
+      "popup.enabledFirst": true,
+      "popup.stylesFirst": true,
+      "popup.autoResort": false,
+      "popup.borders": false,
+      "popup.findSort": "u",
+      "manage.onlyEnabled": false,
+      "manage.onlyLocal": false,
+      "manage.onlyUsercss": false,
+      "manage.onlyEnabled.invert": false,
+      "manage.onlyLocal.invert": false,
+      "manage.onlyUsercss.invert": false,
+      "manage.actions.expanded": true,
+      "manage.backup.expanded": true,
+      "manage.filters.expanded": true,
+      "manage.minColumnWidth": 750,
+      "manage.newUI": true,
+      "manage.newUI.favicons": false,
+      "manage.newUI.faviconsGray": true,
+      "manage.newUI.targets": 3,
+      "manage.newUI.sort": "title,asc",
+      "manage.searchMode": "meta",
+      "editor.options": {},
+      "editor.toc.expanded": true,
+      "editor.options.expanded": true,
+      "editor.lint.expanded": true,
+      "editor.publish.expanded": true,
+      "editor.lineWrapping": true,
+      "editor.smartIndent": true,
+      "editor.indentWithTabs": false,
+      "editor.tabSize": 4,
+      "editor.keyMap": "sublime",
+      "editor.theme": "default",
+      "editor.beautify": {
+        "end_with_newline": false,
+        "indent_conditional": true,
+        "newline_after_open_brace": true,
+        "newline_before_close_brace": true,
+        "newline_before_open_brace": false,
+        "newline_between_properties": true,
+        "newline_between_rules": false,
+        "preserve_newlines": true,
+        "selector_separator_newline": true
+      },
+      "editor.beautify.hotkey": "",
+      "editor.lintDelay": 300,
+      "editor.linter": "csslint",
+      "editor.lintReportDelay": 500,
+      "editor.matchHighlight": "token",
+      "editor.autoCloseBrackets": true,
+      "editor.autocompleteOnTyping": true,
+      "editor.contextDelete": false,
+      "editor.selectByTokens": true,
+      "editor.arrowKeysTraverse": true,
+      "editor.appliesToLineWidget": true,
+      "editor.autosaveDraft": 10,
+      "editor.livePreview": true,
+      "editor.colorpicker": true,
+      "editor.colorpicker.hexUppercase": false,
+      "editor.colorpicker.hotkey": "",
+      "editor.colorpicker.color": "whitesmoke",
+      "editor.colorpicker.maxHeight": 300,
+      "hotkey._execute_browser_action": "",
+      "hotkey.openManage": "",
+      "hotkey.styleDisableAll": "",
+      "sync.enabled": "google",
+      "iconset": 0,
+      "badgeDisabled": "#8B0000",
+      "badgeNormal": "#006666",
+      "headerWidth.edit": 280,
+      "headerWidth.install": 280,
+      "headerWidth.manage": 280,
+      "popupWidth": 246,
+      "updateInterval": 24
+    },
+    "order": {
+      "main": [],
+      "prio": []
+    }
+  },
+  {
+    "enabled": true,
+    "updateUrl": "https://userstyles.world/api/style/1348.user.css",
+    "url": "https://userstyles.world/style/1348",
+    "installDate": 1689227679920,
+    "sections": [
+      {
+        "code": ""
+      }
+    ],
+    "sourceCode": "/* ==UserStyle==\n@name         leetcode black mode selection color\n@version      20220208.05.48\n@namespace    userstyles.world/user/fengwei2002\n@description  leetcode.cn\n@author       fengwei2002\n@license      No License\n==/UserStyle== */\n\n@-moz-document domain(\"leetcode.cn\") {\n    ::-webkit-scrollbar {\n      width: 8px;\n      height: 8px;\n    }\n    ::-webkit-scrollbar-thumb {\n      background: #DEE1E6 !important;\n    }   \n    .CodeMirror,\n    .font-menlo,\n    code,\n    pre {\n    font-family: code new roman !important; \n    font-size: 14px !important; \n    font-weight: 500; \n    }\n}\n\np {\n    font-family:  Arial,sans-serif;\n    font-size: 15px !important;\n    line-height: 22px;\n}\n\n.css-120p8a-card-text,\n.e1qbjo830 {\n    display: none;\n}",
+    "usercssData": {
+      "name": "leetcode black mode selection color",
+      "version": "20220208.05.48",
+      "namespace": "userstyles.world/user/fengwei2002",
+      "description": "leetcode.cn",
+      "author": "fengwei2002",
+      "license": "No License"
+    },
+    "author": "fengwei2002",
+    "description": "leetcode.cn",
+    "name": "leetcode black mode selection color",
+    "originalDigest": "8b2ab04078a22db9a8c189771a22df174ffdc98e",
+    "_id": "0f86ff0a-8c47-4fbd-9960-6844a7bd6031",
+    "_rev": 1697081453446,
+    "installationUrl": "https://userstyles.world/style/1348",
+    "id": 1
+  },
+  {
+    "enabled": true,
+    "installDate": 1689404137790,
+    "name": "pan.baidu.com video play",
+    "sections": [
+      {
+        "code": ".module-video .video-wrap, .module-video .video-wrap-outer {\n    width: 100%;\n    height: 747px;\n    background: #000;\n    position: relative;\n}\n\n.module-video .video-main {\n    width: 100%;\n    margin: 0 auto;\n    padding-top: 2px;\n}\n\n.module-video .video-title {\n    display: none;\n}\n\n.header-box {\n    display: none !important;\n}\n\n.module-video .video-main {\n    padding: 0 !important;\n}\n\n::-webkit-scrollbar {\n      width: 8px;\n      height: 8px;\n    }\n    ::-webkit-scrollbar-thumb {\n      background: #DEE1E6 !important;\n    }",
+        "urlPrefixes": [
+          "https://pan.baidu.com/play"
+        ]
+      },
+      {
+        "code": ".theme-share-page-back,\n#layoutHeader,\n.slide-show-header,\n.module-aside {\n    display: none !important;\n}\n\n\n#layoutApp {\n    padding-top: 0px;\n    min-height: 100%;\n    position: absolute;\n}\n\n#layoutApp .frame-main {\n    width: 100%;\n    position: absolute;\n}\n\n.frame-content {\n    width: 100%;\n    background: #fff;\n    margin-right: 0px;\n    min-height: 100%;\n}\n\n.module-share-file-main {\n    height: 900px !important;\n    width: 100%;\n}\n\n.module-video .video-wrap, .module-video .video-wrap-outer {\n    width: 100%;\n    height: 747px; \n/*     // 786 739 */\n    background: #000;\n    position: relative;\n}\n\n.module-video .video-main {\n    width: 100%;\n    margin: 0 auto;\n    padding-top: 0px;\n}\n\n.video-content {\n    position: absolute !important; \n    top: 0 !important; \n    left: 0 !important;\n    width: 100% !important;\n    height: 100% !important;\n}\n\n.module-header, .frame-main {\n    margin: -11px auto;\n    text-align: left;\n}\n\n::-webkit-scrollbar {\n      width: 8px;\n      height: 8px;\n    }\n    ::-webkit-scrollbar-thumb {\n      background: #DEE1E6 !important;\n    }\n",
+        "urlPrefixes": [
+          "https://pan.baidu.com/s"
+        ]
+      }
+    ],
+    "updateDate": 1697089435939,
+    "_id": "07b6a035-9cd6-44d2-8009-7cd9025a30de",
+    "_rev": 1697089435939,
+    "id": 2
+  },
+  {
+    "enabled": true,
+    "updateUrl": "https://userstyles.world/api/style/6078.user.css",
+    "url": "https://uso.kkx.one/style/181436",
+    "installDate": 1660298453864,
+    "sections": [
+      {
+        "code": ""
+      }
+    ],
+    "sourceCode": "/* ==UserStyle==\n@name           Codeforces New Design\n@namespace      USO Archive\n@author         rknguyen\n@description    `My codeforces custom, new design.`\n@version        20200323.10.29\n@license        NO-REDISTRIBUTION\n@preprocessor   uso\n==/UserStyle== */\n@-moz-document domain(\"codeforces.com\") {\n    a {\n        text-decoration: none;\n    }\n    body, html {\n        font-size: 11px;\n    }\n    #sidebar > div:nth-child(8) {\n        overflow: hidden; \n    }\n    textarea {\n        font-family: source code pro, 微软雅黑 !important;\n    }\n\n    #code_editor {\n        font-family: source code pro, 微软雅黑 !important;\n    }\n    pre {\n        font-family: source code pro, 微软雅黑 !important;\n    }\n    .ace_content {\n        font-family:  source code pro, 微软雅黑 !important;\n    }\n    pre {\n        font-family:  source code pro, 微软雅黑 !important;\n    }\n    div.ttypography tbody td {\n        text-align: left;\n        border-top: 0px solid #ccc;\n    }\n    body {\n        background-color: #e7e9ed0f;\n    }\n    .roundbox-lt,\n    .roundbox-rt,\n    .roundbox-lb,\n    .roundbox-rb {\n        display: none;\n    }\n\n    .roundbox {\n        padding-bottom: 10px;\n        border-radius: 10px;\n    }\n\n    .sidebox.roundbox {\n        margin-top: 10px;\n    }\n\n    .menu-box {\n        margin-top: 0px !important;\n        -webkit-transition: none !important;\n        -moz-transition: none !important;\n        -ms-transition: none !important;\n        -o-transition: none !important;\n        transition: none !important;\n    }\n\n    .menu-box:hover {\n        -webkit-box-shadow: none !important;\n        -moz-box-shadow: none !important;\n        box-shadow: none !important;\n    }\n\n    /** Custom sidebar */\n    .roundbox {\n        margin-top: 10px;\n        border: none;\n        -webkit-transition: all 0.3s linear 0s;\n        -moz-transition: all 0.3s linear 0s;\n        -ms-transition: all 0.3s linear 0s;\n        -o-transition: all 0.3s linear 0s;\n        transition: all 0.3s linear 0s;\n    }\n\n    .roundbox:hover {\n        -webkit-box-shadow: 0 1px 15px 0 rgba(0, 0, 0, 0.1);\n        -moz-box-shadow: 0 1px 15px 0 rgba(0, 0, 0, 0.1);\n        box-shadow: 0 1px 15px 0 rgba(0, 0, 0, 0.1);\n    }\n    .roundbox .titled {\n        padding: 10px;\n        border-bottom-color: #e4e6eb;\n    }\n\n    .sidebox div {\n        border-bottom-color: #e4e6eb !important;\n    }\n\n    /** Sidebar avatar custom */\n    .personal-sidebar .for-avatar {\n        float: none !important;\n        display: block;\n        font-size: 18px;\n        padding: 10px;\n    }\n\n    .personal-sidebar .for-avatar .avatar img {\n        border-radius: 50px;\n        width: 90px;\n        height: 90px;\n        object-fit: cover;\n    }\n\n    /** Sidebar remove property links*/\n    .personal-sidebar .propertyLinks {\n        display: none;\n    }\n\n    .personal-sidebar .nav-links {\n        border-top-style: solid;\n        border-top-width: 1px;\n        border-top-color: #e4e6eb;\n        padding-top: 10px;\n    }\n\n    .personal-sidebar .nav-links li {\n        list-style-type: none !important;\n        padding: 10px;\n        font-size: 13px;\n        border-radius: 5px;\n        -webkit-transition: all 0.2s linear 0s;\n        -moz-transition: all 0.2s linear 0s;\n        -ms-transition: all 0.2s linear 0s;\n        -o-transition: all 0.2s linear 0s;\n        transition: all 0.2s linear 0s;\n    }\n\n    .personal-sidebar .nav-links li a,\n    .personal-sidebar .nav-links li a:visited {\n        color: #050505;\n    }\n\n    .personal-sidebar .nav-links li:after {\n        content: '→';\n        float: right;\n        color: #050505;\n    }\n\n    .personal-sidebar .nav-links li:hover {\n        background-color: rgba(0, 0, 0, 0.05);\n    }\n\n    .personal-sidebar .nav-links li a {\n        text-decoration: none !important;\n    }\n\n    .roundbox .bottom-links {\n        padding: 10px;\n        background-color: #fff;\n        border-top-color: #e4e6eb !important;\n        border-bottom-left-radius: 10px !important;\n        border-bottom-right-radius: 10px !important;\n    }\n\n    .roundbox .rtable .dark {\n        background-color: #fff;\n    }\n    /** Topic custom */\n    .topic {\n        margin-top: 10px;\n        padding: 20px;\n        background-color: #fff;\n        border-radius: 10px;\n        -webkit-transition: all 0.3s linear 0s;\n        -moz-transition: all 0.3s linear 0s;\n        -ms-transition: all 0.3s linear 0s;\n        -o-transition: all 0.3s linear 0s;\n        transition: all 0.3s linear 0s;\n    }\n\n    .topic:hover {\n        -webkit-box-shadow: 0px 1px 15px 0px rgba(0, 0, 0, 0.1);\n        -moz-box-shadow: 0px 1px 15px 0px rgba(0, 0, 0, 0.1);\n        box-shadow: 0px 1px 15px 0px rgba(0, 0, 0, 0.1);\n    }\n\n    .topic .roundbox {\n        border-style: solid;\n        border-color: #e4e6eb;\n    }\n\n    .topic .meta a {\n        text-decoration: none;\n    }\n\n    .meta {\n        padding-bottom: 0px !important;\n    }\n\n    .topic .content {\n        border-left-color: #e4e6eb;\n    }\n    .roundbox .rtable td,\n    .roundbox .rtable th {\n        border-bottom: 1px solid #e4e6eb;\n        border-left: none;\n        padding: 7px;\n    }\n\n    /** Header custom */\n    #header {\n        padding: 20px;\n        margin-top: -14px;\n        background-color: #fff;\n    }\n\n    .menu-box {\n        padding: 10px;\n        border-radius: 0;\n        border-top: none;\n        border-left: none;\n        border-right: none;\n        border-bottom-left-radius: 20px;\n        border-bottom-right-radius: 20px;\n        border-bottom-color: #e4e6eb;\n    }\n\n    /** Footer custom */\n    #footer {\n        background-color: #fff;\n        width: 100%;\n        height: 100%;\n        border-top-left-radius: 20px;\n        border-top-right-radius: 20px;\n        border-top-color: #e4e6eb;\n    }\n\n    /** Contest data table */\n    .datatable .lt,\n    .datatable .rt,\n    .datatable .lb,\n    .datatable .rb,\n    .datatable .ilt,\n    .datatable .irt {\n        display: none;\n    }\n\n    .datatable table {\n        margin-top: 10px;\n        border-style: solid;\n        border-color: #e4e6eb;\n        border-width: 1px;\n    }\n\n    .datatable table .dark {\n        background-color: #fff;\n    }\n\n    .datatable table td {\n        padding-top: 5px;\n        padding-bottom: 5px;\n        padding-left: 10px;\n        padding-right: 10px;\n    }\n\n    .datatable {\n        padding: 20px !important;\n        width: inherit;\n        padding-bottom: 40px !important;\n        background-color: #fff !important;\n        border-radius: 10px;\n        -webkit-transition: all 0.3s linear 0s;\n        -moz-transition: all 0.3s linear 0s;\n        -ms-transition: all 0.3s linear 0s;\n        -o-transition: all 0.3s linear 0s;\n        transition: all 0.3s linear 0s;\n    }\n\n    .datatable:hover {\n        -webkit-box-shadow: 0px 1px 15px 0px rgba(0, 0, 0, 0.1);\n        -moz-box-shadow: 0px 1px 15px 0px rgba(0, 0, 0, 0.1);\n        box-shadow: 0px 1px 15px 0px rgba(0, 0, 0, 0.1);\n    }\n\n    .contests-table::first-line {\n        font-size: 20px;\n        font-weight: bold !important;\n    }\n\n\n    .datatable {\n        margin-top: 10px !important;\n    }\n\n    /** Custom input */\n    input[type=\"file\"] {\n        padding: 2px 2px!important;\n        border: none !important; \n    }\n    \n    \n    input,\n    button {\n        outline: none;\n        height: auto !important;\n        padding: 5px 30px 5px 30px !important;\n        border-radius: 10px;\n        border-width: 1.5px;\n        border-color: #3b5998;\n        font-weight: normal;\n        -webkit-transition: all 0.3s linear 0s;\n        -moz-transition: all 0.3s linear 0s;\n        -ms-transition: all 0.3s linear 0s;\n        -o-transition: all 0.3s linear 0s;\n        transition: all 0.3s linear 0s;\n    }\n\n    input:hover,\n    button:hover {\n        color: rgba(0, 0, 0, 0.7);\n        background-color: #e4e6eb;\n    }\n\n    label[for=searchByProblemCheckbox] {\n        margin-top: 20px !important;\n        color: rgba(0, 0, 0, 0.5);\n    }\n\n    .notice {\n        margin-top: 10px !important;\n    }\n\n    .highlighted-row td,\n    .highlighted-row th {\n        background-color: rgba(221, 238, 255, 0.47) !important;\n    }\n\n    input[name=sourceFile] {\n        border-style: dashed;\n        border-width: 2px;\n        border-color: #e4e6eb;\n        border-radius: 10px;\n        padding: 5px;\n        width: 100%;\n    }\n\n    .submit-form {\n        margin-top: 20px;\n        background-color: #fff;\n        padding: 20px 0 20px 0;\n        border-radius: 10px;\n        -webkit-transition: all 0.3s linear 0s;\n        -moz-transition: all 0.3s linear 0s;\n        -ms-transition: all 0.3s linear 0s;\n        -o-transition: all 0.3s linear 0s;\n        transition: all 0.3s linear 0s;\n    }\n\n    .submit-form:hover {\n        -webkit-box-shadow: 0px 1px 15px 0px rgba(0, 0, 0, 0.1);\n        -moz-box-shadow: 0px 1px 15px 0px rgba(0, 0, 0, 0.1);\n        box-shadow: 0px 1px 15px 0px rgba(0, 0, 0, 0.1);\n    }\n\n    .source-popup pre {\n        padding: 10px;\n        border-style: solid;\n        border-width: 2px;\n        border-color: #e4e6eb;\n    }\n\n    hr {\n        border: 0;\n        height: 2px;\n        background-image: linear-gradient(to right, rgba(228, 230, 235, 0.1), rgba(228, 230, 235, 1), rgba(228, 230, 235, 0.1));\n    }\n\n    .popup-input-div div,\n    .popup-output-div div,\n    .popup-answer-div div,\n    .popup-checker-div div {\n        margin-top: 10px;\n        margin-bottom: 5px;\n    }\n\n    .table-form {\n        padding: 10px;\n    }\n    .diff-notifier {\n        display: none !important;\n    }\n    /*main*/\n    .problemindexholder {\n        box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;\n        margin-top: 10px;\n        background-color: #fff;\n        padding: 30px;\n        border-radius: 10px;\n        -webkit-transition: all 0.3s linear 0s;\n        -moz-transition: all 0.3s linear 0s;\n        -ms-transition: all 0.3s linear 0s;\n        -o-transition: all 0.3s linear 0s;\n        transition: all 0.3s linear 0s;\n    }\n\n    .sample-test {\n        margin-top: 10px;\n    }\n\n    .sample-test .input .title,\n    .sample-test .output .title {\n        font-size: 15px;\n    }\n\n    .sample-test pre {\n        padding-top: 10px !important;\n        padding-bottom: 10px !important;\n        padding-left: 5px !important;\n        padding-right: 5px !important;\n    }\n\n    .placeholder {\n        margin-bottom: 10px !important;\n    }\n\n    a[href^=\"/passwordRecovery\"] {\n        display: block;\n        margin-top: 20px !important;\n    }\n    \n    .backLava {\n        border-radius: 10px;\n    } \n    \n    #body {\n        max-width: 1220px;\n        min-width: 980px;\n    }\n    \n    ::selection {\n        background-color: #c4b5fd!important;\n        color: #000!important;\n    }\n    \n    ::-webkit-scrollbar-thumb {\n        background: #323536!important;\n    }\n    ::-webkit-scrollbar {\n        width: 10px;\n        height: 10px;\n    }\n    div.ttypography a:hover {\n        color: #9e88f5 !important;\n        background: #cfecdc;\n    }\n    div.ttypography li,\n    div.ttypography p {\n        font-size: 1.1em;\n        line-height: 1.4em;\n    }\n    \n    pre {\n        tab-size: 3;\n    }\n}\n\n\nbutton.html2mdButton.CFBetter_setting {\n    float: left;\n    height: 30px;\n    background: white;\n    color: #8963ff75;\n    margin: 0px;\n    border: 0px;\n}",
+    "usercssData": {
+      "name": "Codeforces New Design",
+      "namespace": "USO Archive",
+      "author": "rknguyen",
+      "description": "My codeforces custom, new design.",
+      "version": "20200323.10.29",
+      "license": "NO-REDISTRIBUTION",
+      "preprocessor": "uso"
+    },
+    "author": "rknguyen",
+    "description": "My codeforces custom, new design.",
+    "name": "Codeforces New Design",
+    "originalDigest": "431d446bdc1a2a7962dcbfc6719acf1ab18dba2b",
+    "_id": "b606fed9-3ea1-4bc8-ba27-d092492fce3e",
+    "_rev": 1697081453843,
+    "installationUrl": "https://uso.kkx.one/style/181436",
+    "updateDate": 1693401049902,
+    "_usw": {
+      "token": "eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJzdHlsZUlEIjo2MDc4LCJ1c2VySUQiOjkxM30.Z6G56OPFESpEt3kJsi1_BinljLv8bqjpgsNHI8vm0svTjQ79ZCAL_nbZlwrbTdLu9y6cfBBaXO90oG1n9P60fA",
+      "category": "codeforces",
+      "created_at": "2022-08-12T10:18:07.768755261Z",
+      "description": "fengwei2002",
+      "display_name": "",
+      "homepage": "https://github.com/fengwei2002/",
+      "id": 6078,
+      "license": "No License",
+      "mirror_url": "",
+      "name": "Codeforces fengwei2002",
+      "notes": "",
+      "original": "",
+      "preview_url": "",
+      "updated_at": "2022-08-12T10:18:07.768755261Z",
+      "user_id": 913,
+      "username": "fengwei2002"
+    },
+    "customName": "Codeforces fengwei2002",
+    "id": 3
+  },
+  {
+    "enabled": true,
+    "installDate": 1689565175812,
+    "name": "pan.baidu.com",
+    "sections": [
+      {
+        "code": ".frame-aside,\n#layoutHeader,\n.module-header,\n.EHazOI,\n.vipicon-history-1-1, \n.JS-user-level, \n.BHgeMdb,\n.aside-absolute-container,\n.app-user-vip-center {\n    display: none !important;\n}\n\n#layoutMain {\n    margin-top: -61px;\n    right: 235px;\n}",
+        "urlPrefixes": [
+          "https://pan.baidu.com/disk/home"
+        ]
+      }
+    ],
+    "updateDate": 1691215069240,
+    "_id": "01cbe12f-0dd4-4035-ab77-8092127d8ec8",
+    "_rev": 1691215069240,
+    "id": 4
+  },
+  {
+    "enabled": true,
+    "installDate": 1668094065652,
+    "name": "leetcode.com",
+    "sections": [
+      {
+        "code": "pre,\n.CodeMirror {\n    font-family: codenewroman nfm, misans !important; \n    line-height: 18px;\n}\n::-webkit-scrollbar {\n  width: 8px;\n  height: 8px;\n}\n\n::-webkit-scrollbar-thumb {\n  background: #DEE1E6 !important;\n}   \n    .CodeMirror,\n    .font-menlo,\n    code,\n    pre {\n        font-family: source code pro !important; \n        font-weight: 500; \n    }",
+        "domains": [
+          "leetcode.com"
+        ]
+      }
+    ],
+    "updateDate": 1668094065652,
+    "_id": "376df7f1-9ae6-461d-90f6-b2463e2cbdb8",
+    "_rev": 1688807395960,
+    "id": 5
+  },
+  {
+    "enabled": true,
+    "installDate": 1667278992537,
+    "name": "excalidraw.com",
+    "sections": [
+      {
+        "code": "#root > div > div > div.layer-ui__wrapper > div > div > div.layer-ui__wrapper__top-right.zen-mode-transition {\n    display: none !important;\n}\n\ndiv,\nbody,\np,\nhtml {\n    font-family: source code pro !important;\n}\n",
+        "domains": [
+          "excalidraw.com"
+        ]
+      }
+    ],
+    "updateDate": 1667279071635,
+    "_id": "d2ec6c7b-6718-4b88-b275-baa28a6a544d",
+    "_rev": 1688807395960,
+    "id": 6
+  },
+  {
+    "enabled": true,
+    "updateUrl": "https://userstyles.world/api/style/6077.user.css",
+    "url": "https://userstyles.world/style/6077",
+    "installDate": 1665830679017,
+    "sections": [
+      {
+        "code": ""
+      }
+    ],
+    "sourceCode": "/* ==UserStyle==\n@name           fengwei2002\n@namespace      github.com/openstyles/stylus\n@version        1.0.0\n@description    A new userstyle\n@author         Me\n==/UserStyle== */\n/* ==UserStyle==\n@name           洛谷Luogu去广告\n@namespace      USO Archive\n@author         Jerry_Zhou\n@description    `洛谷Luogu去广告`\n@version        20220118.13.38\n@license        NO-REDISTRIBUTION\n@preprocessor   uso\n==/UserStyle== */\n@-moz-document regexp(\"^((?!blog).)*https://www.luogu.org((?!blog).)*$\"), regexp(\"^((?!blog).)*http://www.luogu.org((?!blog).)*$\"), regexp(\"^((?!blog).)*https://www2.luogu.org((?!blog).)*$\"), regexp(\"^((?!blog).)*http://www2.luogu.org((?!blog).)*$\"), regexp(\"^((?!blog).)*https://www.luogu.com.cn((?!blog).)*$\"), regexp(\"^((?!blog).)*http://www.luogu.com.cn((?!blog).)*$\")\n{\n  div [data-v-0a593618]{\n    display: none;\n  }\n}\n@-moz-document domain(\"luogu.com.cn\") {\n    /*洛谷主站*/\n    /*动画*/\n    @keyframes user {\n        from {\n            margin-top: 0px;\n        }\n        to {\n            margin-top: 20px;\n        }\n    }\n    @keyframes h1 {\n        from {\n            margin-left: -200px;\n        }\n        to {\n            margin-left: 10px;\n        }\n    }\n    /*背景*/\n    body {\n        background-image: url('https://cdn.acwing.com/media/article/image/2021/10/05/101476_f48a644225-background.png');\n        background-size: 100% 100%;\n        background-attachment: fixed;\n    }\n    /*顶部*/\n    .wrapper.wrapped.lfe-body,\n    div.wrapper.wrapped.lfe-body.header-layout.narrow {\n        visibility: hidden;\n    }\n    .footer,\n    .header {\n        visibility: visible;\n    }\n    .user-nav[data-v-2dfcfd35] {\n        transition: all 0.5s ease;\n        color: #fff!important;\n        border-radius: 25px;\n        animation: user 1s;\n        margin-top: 20px;\n    }\n    .user-nav[data-v-2dfcfd35]:hover{\n        transition: all 0.5s ease;\n    }\n    .user-nav {\n        color: #fff;\n    }\n    /*主体*/\n    .lfe-body {\n        visibility: hidden;\n    }\n    .clone-card,\n    .card.user-header-container.padding-0,\n    .am-modal-dialog,\n    .am-g.lg-main-content,\n    .container,\n    .lg-index-content.am-center,\n    .full-container {\n        visibility: visible;\n    }\n    .clone-card,\n    .swal2-popup.swal2-modal.swal2-show,\n    .popup[data-v-1d675dd8],\n    .center,\n    .card.padding-none,\n    .am-panel.am-panel-default.lg-summary,\n    .am-g.lg-table-bg0.lg-table-row,\n    .card.padding-default,\n    .lg-article {\n        transition: all 0.5s ease;\n        border-radius: 25px!important;\n        background-color: #fff!important;\n    }\n    .clone-card:hover,\n    .swal2-popup.swal2-modal.swal2-show:hover,\n    .card.padding-none:hover,\n    .popup[data-v-1d675dd8]:hover,\n    .center:hover,\n    card.padding-none:hover,\n    .am-panel.am-panel-default.lg-summary:hover,\n    .am-g.lg-table-bg0.lg-table-row:hover,\n    .card.padding-default:hover,\n    .lg-article:hover {\n        transition: all 0.1s ease;\n        background-color: #fff!important;\n    }\n    .am-comment.am-comment-primary,\n    .am-comment.am-comment-dange{\n        transition: all 0.1s ease;\n    }\n    .am-comment.am-comment-primary:hover,\n    .am-comment.am-comment-danger:hover {\n        transition: all 0.1s ease;\n    }\n    .am-panel.lg-index-contest.am-panel-danger,\n    .am-panel.lg-index-contest.am-panel-success,\n    .am-panel.lg-index-contest.am-panel-primary{\n        border-radius:20px;\n    }\n    .am-panel.lg-index-contest.am-panel-primary{\n        border-color:rgb(120, 52, 219);\n    }\n    /*侧栏*/\n    div[data-v-27b2cd59] {\n        border-radius: 25px 25px 0px 0px;\n        background-color: #fff0!important;\n    }\n    #app > .lfe-body {\n        visibility: visible;\n        top: 130px;\n        border-radius: 25px;\n        height: 430px;\n        background-color: #fff0!important;\n        margin-left: 0px;\n    }\n    *#app > .lfe-body > a > .text {\n        opacity: 1;\n        margin-top: 0.5em;\n        display: block;\n        transition: all 0.3s ease;\n    }\n    #app > .lfe-body > a {\n        color: #fff !important;\n        height: 3.7em;\n        margin-top: 3px;\n        padding: 0 !important;\n    }\n    .lfe-body>a{\n        transition: all 0.2s ease;\n        border-radius: 10px;\n    }\n    .lfe-body > a:hover {\n        transition: all 0.5s ease;\n        background-color: #ffffff57;\n        color: #fff!important;\n    }\n    .popup-button{\n        transition: all 0.5s ease;\n        color:#fff;\n        border-radius: 10px!important;\n    }\n    .popup-button:hover {\n        transition: all 0.5s ease;\n        background-color: #ffffff57!important;\n        color: #fff!important;\n    }\n    #app > .lfe-body {\n        animation: h1 1s;\n        width: 70px;\n    }\n    a.logo-wrap[data-v-27b2cd59] {\n        width: 70px;\n    }\n    /*字体*/\n    p {\n        font-family: lxgw wenkai, codenewroman nfm;\n        color: #000; \n    }\n    .lfe-h1 {\n        font-size: 40px;\n        animation: h1 0.1s;\n    }\n    .color-none {\n        margin-top: 30px !important;\n    }\n    nav[data-v-258e49ac],\n    .header-link.color-none,\n    .mdui-list-item-icon.mdui-icon.material-icons,\n    .mdui-drawer {\n        color: #fff;\n    }\n    .lfe-form-sz-small,\n    div[data-v-45591776]>.lfe-form-sz-middle{\n        color:#fff!important;\n    }\n    /*细节*/\n    .lfe-form-sz-small,\n    .am-input-group-label,\n    .am-btn.am-btn-primary.am-btn-sm,\n    .lfe-form-sz-middle[data-v-7ade990c],\n    .input-group.search-filter > button.lfe-form-sz-middle,\n    button.selected,\n    .items > li.selected {\n        background-color: rgb(120, 52, 219)!important;\n        border-color: rgb(120, 52, 219)!important;\n    }\n    div.tag[data-v-2a31ee10],\n    .lfe-caption.tag.selected {\n        background-color: rgb(120, 52, 219)!important;\n    }\n    .am-form-field,\n    .refined-input.input-wrap.frame {\n        border-color: rgb(120, 52, 219)!important;\n    }\n    button[data-v-66021821]:hover {\n        border-color: rgb(120, 52, 219)!important;\n    }\n    .lfe-caption {\n        border-radius: 15px!important;\n    }\n    .test-case {\n        border-radius: 10px;\n    }\n    .progress-frame.has-tooltip>div{\n        background-color:rgb(120, 52, 219)!important;\n        border-radius:0px 10px 10px 0px;\n    }\n    .am-pagination > .am-active > a:hover,\n    .am-pagination > .am-active > a{\n        background-color:rgb(120, 52, 219);\n        border-color:rgb(120, 52, 219);\n    }\n    .am-pagination.am-pagination-centered a{\n        border-radius:10px;\n    }\n    .am-slider-default .am-control-nav li a.am-active{\n        background-color:rgb(120, 52, 219);\n    }\n     .color-default[data-v-303bbf52]:hover,\n    a:hover{\n        color:rgb(120, 52, 219);\n    }\n    .menu[data-v-0e1ae304]{\n        --main-color:rgb(120, 52, 219)!important;\n    }\n    input:enabled + label:hover > .fa-input[data-v-7ecd1f3a]{\n        color:rgb(120, 52, 219)!important;\n    }\n    .clear-filter{\n        color:rgb(120, 52, 219)!important;\n    }\n    input.lfe-form-sz-small,\n    .text.lfe-form-sz-small{\n        color:#000!important;\n        background-color:#fff!important;\n    }\n    .refined-input.input-wrap.input.frame>.lfe-form-sz-middle{\n        color:#000!important;\n    }\n    .copy-btn.lfe-form-sz-middle{\n        color:#fff!important;\n    }\n    .item:hover{\n        border-radius:25px;\n        transition: all 0.5s ease;\n    }\n    /*隐藏广告*/\n    div[data-v-0a593618]{\n        display:none;\n    }\n    /*洛谷有题*/\n    /*顶部*/\n    #app-header{\n        background-color:#fff0;\n    }\n    nav.user-nav{\n        color: #fff!important;\n        border-radius: 25px!important;\n        animation: user 1s;\n        margin-top: 20px;\n    }\n    /*侧栏*/\n    .sm-hide.router-link-active.color-default{\n        border-radius:25px 25px 0px 0px;\n        background-color:#fff0!important;\n    }\n    #app-sidenav{\n        margin-left:10px;\n        margin-top:200px;\n        height:150px;\n        border-radius:25px;\n        background-color:#fff0;\n        animation: h1 1s;\n    }\n    .list-item-container>span{\n        opacity: 0;\n        margin-top: -1em;\n        display: block;\n        transition: all 0.3s ease;\n    }\n    .list-item-container:hover>span{\n        opacity: 1;\n        margin-top: 0.2em;\n        color:#000!important;\n    }\n    .icon.fa.fa-book{\n        opacity:1;\n        color:#fff;\n    }\n    .list-item-container {\n        transition: all 0.5s ease;\n        border-radius: 10px;\n        color: #fff !important;\n        height: 3.7em;\n        margin-top: 3px;\n        padding: 0 !important;\n    }\n    .list-item-container:hover{\n        transition: all 0.5s ease;\n        background-color: #fff;\n    }\n    /*主体*/\n    .card{\n        transition: all 0.5s ease;\n        border-radius:25px;\n        background-color:#ffffffc2;\n    }\n    .card:hover{\n        transition: all 0.5s ease;\n        background-color:#fff;\n    }\n    /*底部*/\n    #app-footer{\n        visibility: hidden;\n    }\n    .width-wrap.min-margin{\n        visibility: visible;\n    }\n}",
+    "usercssData": {
+      "name": "fengwei2002",
+      "namespace": "github.com/openstyles/stylus",
+      "version": "1.0.0",
+      "description": "A new userstyle",
+      "author": "Me"
+    },
+    "author": "Me",
+    "description": "A new userstyle",
+    "name": "fengwei2002",
+    "originalDigest": "4c1fc338db259e7085d9969493a6017b8d7c50be",
+    "_id": "476abc6f-d4cd-4d9d-8a9b-863be85b521a",
+    "_rev": 1688807395959,
+    "installationUrl": "https://userstyles.world/style/6077",
+    "updateDate": 1665898598818,
+    "_usw": {
+      "token": "eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJzdHlsZUlEIjo2MDc3LCJ1c2VySUQiOjkxM30.D3Conu0qKx8SrYVCwIIkoYTHs-lPU2dktOsvKy6P6r6Knjm8wO64WkZX75Ss3Am4xDNdel5fWHFw45UpCHUECA",
+      "category": "luogu",
+      "created_at": "2022-08-12T09:59:08.719879541Z",
+      "description": "简化，并且保持可读性",
+      "display_name": "",
+      "homepage": "https://github.com/fengwei2002/",
+      "id": 6077,
+      "license": "No License",
+      "mirror_url": "",
+      "name": "fengwei2002 luogu",
+      "notes": "",
+      "original": "",
+      "preview_url": "",
+      "updated_at": "2022-08-12T10:07:09.983379785Z",
+      "user_id": 913,
+      "username": "fengwei2002"
+    },
+    "id": 7
+  },
+  {
+    "enabled": true,
+    "updateUrl": "https://cdn.jsdelivr.net/gh/33kk/uso-archive@flomaster/data/usercss/95033.user.css",
+    "url": "https://uso.kkx.one/style/95033",
+    "installDate": 1661265831747,
+    "sections": [
+      {
+        "code": ""
+      }
+    ],
+    "sourceCode": "/* ==UserStyle==\n@name           YouTube - Nyan Cat progress bar video player theme\n@namespace      USO Archive\n@author         zoid\n@description    `Bring Nyan Cat to your YouTube videos with this custom video progress bar! Animated Nyan Cat leaves a rainbow trail behind her as she flies through space!If Nyan Cat's not to your tastes, check out this customisable style: <a href=\"https://userstyles.org/styles/95280/youtube-custom-colors-video-progress-bar\">YouTube - Custom colors video progress bar</a>.<mark><strong></strong></mark><br>`\n@version        20180627.19.1\n@license        CC-BY-NC-4.0\n@preprocessor   uso\n@advanced dropdown show_nyan \"Show Nyan Cat\" {\n\tshow_nyan_always \"Always (default)*\" <<<EOT transform: scale(0.8);\n-webkit-transform: scale(0.8);\n-moz-transform: scale(0.8);\n-ms-transform: scale(0.8); EOT;\nshow_nyan_mouseover \"Only on mouseover\" <<<EOT  EOT;\n\n}\n@advanced dropdown stars \"Stars\" {\n\tstars_animated \"Animated (default)*\" <<<EOT data:image/gif;base64,R0lGODlhMAAMAIAAAAxBd////yH/C05FVFNDQVBFMi4wAwEAAAAh+QQECgAAACwAAAAAMAAMAAACJYSPqcvtD6MKstpLr24Z9A2GYvJ544mhXQmxoesElIyCcB3dRgEAIfkEBAoAAAAsAQACAC0ACgAAAiGEj6nLHG0enNQdWbPefOHYhSLydVhJoSYXPO04qrAmJwUAIfkEBAoAAAAsBQABACkACwAAAiGEj6nLwQ8jcC5ViW3evHt1GaE0flxpphn6BNTEqvI8dQUAIfkEBAoAAAAsAQABACoACwAAAiGEj6nLwQ+jcU5VidPNvPtvad0GfmSJeicUUECbxnK0RgUAIfkEBAoAAAAsAAAAACcADAAAAiCEj6mbwQ+ji5QGd6t+c/v2hZzYiVpXmuoKIikLm6hXAAAh+QQECgAAACwAAAAALQAMAAACI4SPqQvBD6NysloTXL480g4uX0iW1Wg21oem7ismLUy/LFwAACH5BAQKAAAALAkAAAAkAAwAAAIghI8Joe0Po0yBWTaz3g/z7UXhMX7kYmplmo0rC8cyUgAAIfkEBAoAAAAsBQAAACUACgAAAh2Ejwmh7Q+jbIFZNrPeEXPudU74IVa5kSiYqOtRAAAh+QQECgAAACwEAAAAIgAKAAACHISPELfpD6OcqTGKs4bWRp+B36YFi0mGaVmtWQEAIfkEBAoAAAAsAAAAACMACgAAAh2EjxC36Q+jnK8xirOW1kavgd+2BYtJhmnpiGtUAAAh+QQECgAAACwAAAAALgALAAACIYSPqcvtD+MKicqLn82c7e6BIhZQ5jem6oVKbfdqQLzKBQAh+QQECgAAACwCAAIALAAJAAACHQx+hsvtD2OStDplKc68r2CEm0eW5uSN6aqe1lgAADs= EOT;\nstars_static \"Static\" <<<EOT data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAkCAIAAABE0v5gAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyJpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMy1jMDExIDY2LjE0NTY2MSwgMjAxMi8wMi8wNi0xNDo1NjoyNyAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENTNiAoV2luZG93cykiIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6RDBCQzQ5NUQ0QjgwMTFFMzgzMjlFRUMwNEE5QTFEODMiIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6RDBCQzQ5NUU0QjgwMTFFMzgzMjlFRUMwNEE5QTFEODMiPiA8eG1wTU06RGVyaXZlZEZyb20gc3RSZWY6aW5zdGFuY2VJRD0ieG1wLmlpZDpEMEJDNDk1QjRCODAxMUUzODMyOUVFQzA0QTlBMUQ4MyIgc3RSZWY6ZG9jdW1lbnRJRD0ieG1wLmRpZDpEMEJDNDk1QzRCODAxMUUzODMyOUVFQzA0QTlBMUQ4MyIvPiA8L3JkZjpEZXNjcmlwdGlvbj4gPC9yZGY6UkRGPiA8L3g6eG1wbWV0YT4gPD94cGFja2V0IGVuZD0iciI/PsJssJMAAADHSURBVHja7JfBDYAgDEWFsw6lS+kITuVSLiCmxjQhgbaB0kOJBw6A7/82hYZ53Sd7I04mx4t1X6dFrGU7yov0uSMFCLibwxUOrGBhI6umKrmVq2llWDonfUknTPIFYWCBADJ5brGsauIoya2CrJHlVJnJdpV3LMdyLMdyLMdSfUZH2c8ElzdLiUYQBQ3B9976d+IjxudW4gAmmHRtbyiGdQ9iLpIiOyq8QgUNgUbK42QnKtcrp6xQ+OXDSUFDWDjKHkTOeAQYAIkcV+RUQwO/AAAAAElFTkSuQmCC EOT;\n\n}\n\n==/UserStyle== */\n@-moz-document domain(\"youtube.com\") {\n.html5-play-progress, .ytp-play-progress {\n   background: url(\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAAMCAIAAAAs6UAAAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyJpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMy1jMDExIDY2LjE0NTY2MSwgMjAxMi8wMi8wNi0xNDo1NjoyNyAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENTNiAoV2luZG93cykiIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6QUNCQzIyREQ0QjdEMTFFMzlEMDM4Qzc3MEY0NzdGMDgiIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6QUNCQzIyREU0QjdEMTFFMzlEMDM4Qzc3MEY0NzdGMDgiPiA8eG1wTU06RGVyaXZlZEZyb20gc3RSZWY6aW5zdGFuY2VJRD0ieG1wLmlpZDpBQ0JDMjJEQjRCN0QxMUUzOUQwMzhDNzcwRjQ3N0YwOCIgc3RSZWY6ZG9jdW1lbnRJRD0ieG1wLmRpZDpBQ0JDMjJEQzRCN0QxMUUzOUQwMzhDNzcwRjQ3N0YwOCIvPiA8L3JkZjpEZXNjcmlwdGlvbj4gPC9yZGY6UkRGPiA8L3g6eG1wbWV0YT4gPD94cGFja2V0IGVuZD0iciI/PovDFgYAAAAmSURBVHjaYvjPwMAAxjMZmBhA9H8INv4P4TPM/A+m04zBNECAAQBCWQv9SUQpVgAAAABJRU5ErkJggg==\") repeat-x !important; \nbackground: linear-gradient(to bottom, #FF0000 0%, #FF0000 16.5%, #FF9900 16.5%, #FF9900 33%, #FFFF00 33%, #FFFF00 50%, #33FF00 50%, #33FF00 66%, #0099FF 66%, #0099FF 83.5%, #6633ff 83.5%, #6633ff 100%) !important;\nbackground: -webkit-linear-gradient(top, #FF0000 0%, #FF0000 16.5%, #FF9900 16.5%, #FF9900 33%, #FFFF00 33%, #FFFF00 50%, #33FF00 50%, #33FF00 66%, #0099FF 66%, #0099FF 83.5%, #6633ff 83.5%, #6633ff 100%) !important;\nbackground: -moz-linear-gradient(top, #FF0000 0%, #FF0000 16.5%, #FF9900 16.5%, #FF9900 33%, #FFFF00 33%, #FFFF00 50%, #33FF00 50%, #33FF00 66%, #0099FF 66%, #0099FF 83.5%, #6633ff 83.5%, #6633ff 100%) !important;\n}\n\n.html5-load-progress, .ytp-load-progress {\n   background:  url(\"/*[[stars]]*/\") !important;\n}\n\n.html5-scrubber-button, .ytp-scrubber-button {\n   background: url(\"data:image/gif;base64,R0lGODlhIgAVAKIHAL3/9/+Zmf8zmf/MmZmZmf+Z/wAAAAAAACH/C05FVFNDQVBFMi4wAwEAAAAh/wtYTVAgRGF0YVhNUDw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMy1jMDExIDY2LjE0NTY2MSwgMjAxMi8wMi8wNi0xNDo1NjoyNyAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1NOk9yaWdpbmFsRG9jdW1lbnRJRD0ieG1wLmRpZDpDMkJBNjY5RTU1NEJFMzExOUM4QUM2MDAwNDQzRERBQyIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDpCREIzOEIzMzRCN0IxMUUzODhEQjgwOTYzMTgyNTE0QiIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDpCREIzOEIzMjRCN0IxMUUzODhEQjgwOTYzMTgyNTE0QiIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgQ1M2IChXaW5kb3dzKSI+IDx4bXBNTTpEZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSJ4bXAuaWlkOkM1QkE2NjlFNTU0QkUzMTE5QzhBQzYwMDA0NDNEREFDIiBzdFJlZjpkb2N1bWVudElEPSJ4bXAuZGlkOkMyQkE2NjlFNTU0QkUzMTE5QzhBQzYwMDA0NDNEREFDIi8+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8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\") !important;\n   width: 34px !important;\n   height: 21px !important;\n   border: none !important;\n   margin-left: -18px !important;\n   margin-top: 0px !important;\n   /*[[show_nyan]]*/\n}\n.ytp-progress-bar-container:hover .ytp-scrubber-button,\n.ytp-progress-bar-container:hover .ytp-load-progress{\n\timage-rendering: pixelated;\n}\n.html5-progress-bar-container, .ytp-progress-bar-container {\n   height: 12px !important;\n}\n.html5-progress-bar, .ytp-progress-bar {\n   margin-top: 12px !important;\n}\n.html5-progress-list, .ytp-progress-list, .video-ads .html5-progress-list.html5-ad-progress-list, .video-ads .ytp-progress-list.ytp-ad-progress-list {\n   height: 12px !important;\n}\n.ytp-volume-slider-track {\n   background: #0C4177 !important;\n}\n}",
+    "usercssData": {
+      "name": "YouTube - Nyan Cat progress bar video player theme",
+      "namespace": "USO Archive",
+      "author": "zoid",
+      "description": "Bring Nyan Cat to your YouTube videos with this custom video progress bar! Animated Nyan Cat leaves a rainbow trail behind her as she flies through space!If Nyan Cat's not to your tastes, check out this customisable style: <a href=\"https://userstyles.org/styles/95280/youtube-custom-colors-video-progress-bar\">YouTube - Custom colors video progress bar</a>.<mark><strong></strong></mark><br>",
+      "version": "20180627.19.1",
+      "license": "CC-BY-NC-4.0",
+      "preprocessor": "uso",
+      "vars": {
+        "show_nyan": {
+          "type": "select",
+          "label": "Show Nyan Cat",
+          "name": "show_nyan",
+          "value": null,
+          "default": "show_nyan_always",
+          "options": [
+            {
+              "name": "show_nyan_always",
+              "label": "Always (default)*",
+              "value": "transform: scale(0.8);\n-webkit-transform: scale(0.8);\n-moz-transform: scale(0.8);\n-ms-transform: scale(0.8);"
+            },
+            {
+              "name": "show_nyan_mouseover",
+              "label": "Only on mouseover",
+              "value": ""
+            }
+          ]
+        },
+        "stars": {
+          "type": "select",
+          "label": "Stars",
+          "name": "stars",
+          "value": null,
+          "default": "stars_animated",
+          "options": [
+            {
+              "name": "stars_animated",
+              "label": "Animated (default)*",
+              "value": "data:image/gif;base64,R0lGODlhMAAMAIAAAAxBd////yH/C05FVFNDQVBFMi4wAwEAAAAh+QQECgAAACwAAAAAMAAMAAACJYSPqcvtD6MKstpLr24Z9A2GYvJ544mhXQmxoesElIyCcB3dRgEAIfkEBAoAAAAsAQACAC0ACgAAAiGEj6nLHG0enNQdWbPefOHYhSLydVhJoSYXPO04qrAmJwUAIfkEBAoAAAAsBQABACkACwAAAiGEj6nLwQ8jcC5ViW3evHt1GaE0flxpphn6BNTEqvI8dQUAIfkEBAoAAAAsAQABACoACwAAAiGEj6nLwQ+jcU5VidPNvPtvad0GfmSJeicUUECbxnK0RgUAIfkEBAoAAAAsAAAAACcADAAAAiCEj6mbwQ+ji5QGd6t+c/v2hZzYiVpXmuoKIikLm6hXAAAh+QQECgAAACwAAAAALQAMAAACI4SPqQvBD6NysloTXL480g4uX0iW1Wg21oem7ismLUy/LFwAACH5BAQKAAAALAkAAAAkAAwAAAIghI8Joe0Po0yBWTaz3g/z7UXhMX7kYmplmo0rC8cyUgAAIfkEBAoAAAAsBQAAACUACgAAAh2Ejwmh7Q+jbIFZNrPeEXPudU74IVa5kSiYqOtRAAAh+QQECgAAACwEAAAAIgAKAAACHISPELfpD6OcqTGKs4bWRp+B36YFi0mGaVmtWQEAIfkEBAoAAAAsAAAAACMACgAAAh2EjxC36Q+jnK8xirOW1kavgd+2BYtJhmnpiGtUAAAh+QQECgAAACwAAAAALgALAAACIYSPqcvtD+MKicqLn82c7e6BIhZQ5jem6oVKbfdqQLzKBQAh+QQECgAAACwCAAIALAAJAAACHQx+hsvtD2OStDplKc68r2CEm0eW5uSN6aqe1lgAADs="
+            },
+            {
+              "name": "stars_static",
+              "label": "Static",
+              "value": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAkCAIAAABE0v5gAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyJpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMy1jMDExIDY2LjE0NTY2MSwgMjAxMi8wMi8wNi0xNDo1NjoyNyAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENTNiAoV2luZG93cykiIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6RDBCQzQ5NUQ0QjgwMTFFMzgzMjlFRUMwNEE5QTFEODMiIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6RDBCQzQ5NUU0QjgwMTFFMzgzMjlFRUMwNEE5QTFEODMiPiA8eG1wTU06RGVyaXZlZEZyb20gc3RSZWY6aW5zdGFuY2VJRD0ieG1wLmlpZDpEMEJDNDk1QjRCODAxMUUzODMyOUVFQzA0QTlBMUQ4MyIgc3RSZWY6ZG9jdW1lbnRJRD0ieG1wLmRpZDpEMEJDNDk1QzRCODAxMUUzODMyOUVFQzA0QTlBMUQ4MyIvPiA8L3JkZjpEZXNjcmlwdGlvbj4gPC9yZGY6UkRGPiA8L3g6eG1wbWV0YT4gPD94cGFja2V0IGVuZD0iciI/PsJssJMAAADHSURBVHja7JfBDYAgDEWFsw6lS+kITuVSLiCmxjQhgbaB0kOJBw6A7/82hYZ53Sd7I04mx4t1X6dFrGU7yov0uSMFCLibwxUOrGBhI6umKrmVq2llWDonfUknTPIFYWCBADJ5brGsauIoya2CrJHlVJnJdpV3LMdyLMdyLMdSfUZH2c8ElzdLiUYQBQ3B9976d+IjxudW4gAmmHRtbyiGdQ9iLpIiOyq8QgUNgUbK42QnKtcrp6xQ+OXDSUFDWDjKHkTOeAQYAIkcV+RUQwO/AAAAAElFTkSuQmCC"
+            }
+          ]
+        }
+      }
+    },
+    "author": "zoid",
+    "description": "Bring Nyan Cat to your YouTube videos with this custom video progress bar! Animated Nyan Cat leaves a rainbow trail behind her as she flies through space!If Nyan Cat's not to your tastes, check out this customisable style: <a href=\"https://userstyles.org/styles/95280/youtube-custom-colors-video-progress-bar\">YouTube - Custom colors video progress bar</a>.<mark><strong></strong></mark><br>",
+    "name": "YouTube - Nyan Cat progress bar video player theme",
+    "originalDigest": "cfb38a924c3c23928728e45c54d09aec9bc73f74",
+    "_id": "5f8f3d95-2fda-4a36-9ab0-15c76f7f0c5a",
+    "_rev": 1688807395959,
+    "installationUrl": "https://uso.kkx.one/style/95033",
+    "etag": "W/\"2ac2-jFDCQrptxmwfM+MKKl1VAdVQuNk\"",
+    "id": 8
+  },
+  {
+    "enabled": true,
+    "installDate": 1661075378099,
+    "sections": [
+      {
+        "code": ""
+      }
+    ],
+    "sourceCode": "/* ==UserStyle==\n@name           atcoder.jp - 2022/8/21 17:49:28\n@namespace      github.com/openstyles/stylus\n@version        1.0.0\n@description    A new userstyle\n@author         Me\n==/UserStyle== */\n\n@-moz-document domain(\"atcoder.jp\") {\n    /* 在此插入代码... */\n    #fixed-server-timer {\n        display: none; \n    }\n}",
+    "usercssData": {
+      "name": "atcoder.jp - 2022/8/21 17:49:28",
+      "namespace": "github.com/openstyles/stylus",
+      "version": "1.0.0",
+      "description": "A new userstyle",
+      "author": "Me"
+    },
+    "author": "Me",
+    "description": "A new userstyle",
+    "name": "atcoder.jp - 2022/8/21 17:49:28",
+    "updateDate": 1661075382966,
+    "_id": "a637f8c6-662f-4f5f-aad4-c899758b3aee",
+    "_rev": 1688807395958,
+    "id": 9
+  },
+  {
+    "enabled": true,
+    "installDate": 1660882330919,
+    "sections": [
+      {
+        "code": ""
+      }
+    ],
+    "sourceCode": "/* ==UserStyle==\n@name           www.luogu.com.cn - 2022/8/19 12:11:46\n@namespace      github.com/openstyles/stylus\n@version        1.0.0\n@description    A new userstyle\n@author         Me\n==/UserStyle== */\n\n@-moz-document domain(\"www.luogu.com.cn\") {\n    .editor,\n    .ace_editor, \n    .ace-clouds,\n    .ace_text-input,\n    .ace_content {\n        font-size: 14px !important;\n    }\n}",
+    "usercssData": {
+      "name": "www.luogu.com.cn - 2022/8/19 12:11:46",
+      "namespace": "github.com/openstyles/stylus",
+      "version": "1.0.0",
+      "description": "A new userstyle",
+      "author": "Me"
+    },
+    "author": "Me",
+    "description": "A new userstyle",
+    "name": "www.luogu.com.cn - 2022/8/19 12:11:46",
+    "updateDate": 1660961780585,
+    "_id": "1413a2af-5e92-4f08-a9e5-559df38d9b06",
+    "_rev": 1688807395958,
+    "id": 10
+  },
+  {
+    "enabled": true,
+    "updateUrl": "https://cdn.jsdelivr.net/gh/33kk/uso-archive@flomaster/data/usercss/181111.user.css",
+    "url": "https://uso.kkx.one/style/181111",
+    "installDate": 1660877069406,
+    "sections": [
+      {
+        "code": ""
+      }
+    ],
+    "sourceCode": "/* ==UserStyle==\n@name           CleanDeepL\n@namespace      USO Archive\n@author         Dmitry Warkentin\n@description    `only translator, no shit`\n@version        20201111.20.46\n@license        NO-REDISTRIBUTION\n@preprocessor   uso\n==/UserStyle== */\n@-moz-document domain(\"www.deepl.com\") {\n.dl_header_menu_v2__items {\n\tdisplay: none;\n}\n\n.dl_header_menu_v2__separator {\n\tdisplay: none;\n}\n\n.dl_body--redesign .lmt--web .docTrans_translator_upload_button {\n  display: none;\n}\n\n.lmt__target_toolbar__share {\n\tdisplay: none !important;\n}\n\n#lmt_quotes_article {\n\tdisplay: none;\n}\n\n.dl_footer.dl_top_element--wide {\n\tdisplay: none;\n}\n\n.lmt__docTrans-tab-container {\n    display: none;\n}\n\n.dl_ad_app__commonContent {\n    display: none !important;\n}\n}",
+    "usercssData": {
+      "name": "CleanDeepL",
+      "namespace": "USO Archive",
+      "author": "Dmitry Warkentin",
+      "description": "only translator, no shit",
+      "version": "20201111.20.46",
+      "license": "NO-REDISTRIBUTION",
+      "preprocessor": "uso"
+    },
+    "author": "Dmitry Warkentin",
+    "description": "only translator, no shit",
+    "name": "CleanDeepL",
+    "originalDigest": "aa53f95a766ad43a1440a78586fa0b2f587d3894",
+    "_id": "0063568b-b941-467f-8c1d-e42094f6be29",
+    "_rev": 1688807395957,
+    "installationUrl": "https://uso.kkx.one/style/181111",
+    "etag": "W/\"308-pZ9QkR2AJrWo8LkUZGk3fVo006g\"",
+    "id": 11
+  },
+  {
+    "enabled": true,
+    "updateUrl": "https://cdn.jsdelivr.net/gh/33kk/uso-archive@flomaster/data/usercss/222074.user.css",
+    "url": "https://uso.kkx.one/style/222074",
+    "installDate": 1660723152206,
+    "sections": [
+      {
+        "code": ""
+      }
+    ],
+    "sourceCode": "/* ==UserStyle==\n@name           洛谷Luogu去广告\n@namespace      USO Archive\n@author         Jerry_Zhou\n@description    `洛谷Luogu去广告`\n@version        20220118.13.38\n@license        NO-REDISTRIBUTION\n@preprocessor   uso\n==/UserStyle== */\n@-moz-document regexp(\"^((?!blog).)*https://www.luogu.org((?!blog).)*$\"), regexp(\"^((?!blog).)*http://www.luogu.org((?!blog).)*$\"), regexp(\"^((?!blog).)*https://www2.luogu.org((?!blog).)*$\"), regexp(\"^((?!blog).)*http://www2.luogu.org((?!blog).)*$\"), regexp(\"^((?!blog).)*https://www.luogu.com.cn((?!blog).)*$\"), regexp(\"^((?!blog).)*http://www.luogu.com.cn((?!blog).)*$\")\n{\n  div [data-v-0a593618]{\n    display: none;\n  }\n}",
+    "usercssData": {
+      "name": "洛谷Luogu去广告",
+      "namespace": "USO Archive",
+      "author": "Jerry_Zhou",
+      "description": "洛谷Luogu去广告",
+      "version": "20220118.13.38",
+      "license": "NO-REDISTRIBUTION",
+      "preprocessor": "uso"
+    },
+    "author": "Jerry_Zhou",
+    "description": "洛谷Luogu去广告",
+    "name": "洛谷Luogu去广告",
+    "originalDigest": "d75f31d6e1090e365f66cd2c1cca30c81a0f8668",
+    "_id": "3adef886-1335-4bdd-b425-7293281745a9",
+    "_rev": 1688807395955,
+    "installationUrl": "https://uso.kkx.one/style/222074",
+    "etag": "W/\"2a8-Jf3lWBPpQUfHeN1kIU+BKLWIZAU\"",
+    "id": 13
+  },
+  {
+    "enabled": true,
+    "url": "https://userstyles.world/style/5522",
+    "installDate": 1656588449839,
+    "name": "nowcoder.com",
+    "sections": [
+      {
+        "code": "pre,\n.CodeMirror {\n    font-family: codenewroman nfm, misans !important; \n    line-height: 18px;\n}\n::-webkit-scrollbar {\n  width: 8px;\n  height: 8px;\n}\n\n::-webkit-scrollbar-thumb {\n  background: #DEE1E6 !important;\n}\n",
+        "domains": [
+          "nowcoder.com"
+        ]
+      }
+    ],
+    "updateDate": 1665732118925,
+    "_id": "bd108cb9-4f0b-4319-8a2c-11d607a5de0d",
+    "_rev": 1688807395931,
+    "_usw": {
+      "token": "eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJzdHlsZUlEIjo1NTIyLCJ1c2VySUQiOjkxM30.h2oXbOc0i3qJusfPPoXV8Y4ClV1UA_pnT_FB3cbmf4uZy1TE2HgFMEgY6Epqbk6NFAHfoKrCc7o4wKx4vnDDOA",
+      "category": "nowcoder",
+      "created_at": "2022-07-07T03:11:11.502935825Z",
+      "description": "fix ::-webkit-scrollbar ",
+      "display_name": "",
+      "homepage": "",
+      "id": 5522,
+      "license": "No License",
+      "mirror_url": "",
+      "name": "nowcoder.com",
+      "notes": "",
+      "original": "",
+      "preview_url": "",
+      "updated_at": "2022-07-07T03:11:11.502935825Z",
+      "user_id": 913,
+      "username": "fengwei2002"
+    },
+    "id": 14
+  },
+  {
+    "enabled": true,
+    "updateUrl": "https://userstyles.world/api/style/5039.user.css",
+    "url": "https://userstyles.world/style/5039",
+    "installDate": 1654526562735,
+    "sections": [
+      {
+        "code": ""
+      }
+    ],
+    "sourceCode": "/* ==UserStyle==\n@name         acwing.com\n@version      20220606.14.41\n@namespace    userstyles.world/user/fengwei2002\n@description  删除 acwing 界面中的所有无用的元素，专心刷题\n@author       fengwei2002\n@license      No License\n==/UserStyle== */\n\n@-moz-document domain(\"acwing.com\") {\n    pre,\n    .cpp,\n    .hljs,\n    .ace_content,\n    .CodeMirror,\n    code,\n    #code_editor{\n        font-family: source code pro, 微软雅黑 !important;\n        line-height: 18px;\n    }\n\n    #copyBtn,\n    #generateSolutionBtn {\n        background-color: #0000; \n        border: 0px solid #9400d3; \n        border-bottom: 3px solid #9400d3; \n    }\n\n    #code_tool_bar {\n        width: 100%;\n        background: #0000;\n        border: 0px solid #c2c7d0;\n        margin-bottom: 20px;\n    }\n\n    #code_editor {\n        border: none;    \n    }\n    .navbar {\n        position: static; \n    }\n    .panel,\n    .panel-default,\n    .panel-body,\n    .container {\n        box-shadow: none !important; \n    }\n    #\\31 024-activity,\n    #\\31 024-img,\n    #\\31 024-close-btn,\n    .footer,\n    .file-explorer-main-field-item, \n    .file-explorer-main-field-item-desktop,\n    .file-explorer-main-field-item-icon,\n    .fs-gui-advertisement-base,\n    .fs-gui-taskbar {\n        display: none; \n    }\n}",
+    "usercssData": {
+      "name": "acwing.com",
+      "version": "20220606.14.41",
+      "namespace": "userstyles.world/user/fengwei2002",
+      "description": "删除 acwing 界面中的所有无用的元素，专心刷题",
+      "author": "fengwei2002",
+      "license": "No License"
+    },
+    "author": "fengwei2002",
+    "description": "删除 acwing 界面中的所有无用的元素，专心刷题",
+    "name": "acwing.com",
+    "originalDigest": "d08bd4e81d614abba949f12e58348fa2e98ecfdb",
+    "_id": "fde5cba9-2e5a-467b-8870-b5513b49e601",
+    "_rev": 1688807395732,
+    "installationUrl": "https://userstyles.world/style/5039",
+    "updateDate": 1668343241843,
+    "_usw": {
+      "token": "eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJzdHlsZUlEIjo1MDM5LCJ1c2VySUQiOjkxM30.DvWPyZ4PpRjEVeO3qPrI0NMLFGQ5XUZNIT5kMWlm1HPvU-S75qrMsyF248eVec2nmTeqGVhqYdWU3fKs-_xOiw",
+      "category": "acwing",
+      "created_at": "2022-06-06T14:34:24.504602334Z",
+      "description": ".CodeMirror {\r\n    font-family: Go Mono !important; \r\n}\r\npre {\r\n    font-family: Go Mono !important; \r\n}",
+      "display_name": "",
+      "homepage": "",
+      "id": 5039,
+      "license": "No License",
+      "mirror_url": "",
+      "name": "acwing.com",
+      "notes": ".CodeMirror {\r\n    font-family: Go Mono !important; \r\n}\r\npre {\r\n    font-family: Go Mono !important; \r\n}",
+      "original": "",
+      "preview_url": "",
+      "updated_at": "2022-06-06T14:41:49.093681006Z",
+      "user_id": 913,
+      "username": "fengwei2002"
+    },
+    "id": 15
+  },
+  {
+    "enabled": true,
+    "updateUrl": "https://userstyles.world/api/style/908.user.css",
+    "url": "https://userstyles.world/style/908",
+    "installDate": 1654516674546,
+    "sections": [
+      {
+        "code": ""
+      }
+    ],
+    "sourceCode": "/* ==UserStyle==\n@name         notion code fix\n@version      20210829.17.02\n@namespace    userstyles.world/user/fengwei2002\n@description  修复 notion 的代码块和背景颜色不一致的问题\n@author       fengwei2002\n@license      No License\n==/UserStyle== */\n\n@-moz-document domain(\"notion.so\") {\n.notion-light-theme .token.operator,\n.notion-light-theme .token.entity,\n.notion-light-theme .token.url,\n.notion-light-theme .language-css .token.string,\n.notion-light-theme .style .token.string {\n    color: #9a6e3a;\n    background: #F7F6F3 !important;\n}\n\n}",
+    "usercssData": {
+      "name": "notion code fix",
+      "version": "20210829.17.02",
+      "namespace": "userstyles.world/user/fengwei2002",
+      "description": "修复 notion 的代码块和背景颜色不一致的问题",
+      "author": "fengwei2002",
+      "license": "No License"
+    },
+    "author": "fengwei2002",
+    "description": "修复 notion 的代码块和背景颜色不一致的问题",
+    "name": "notion code fix",
+    "originalDigest": "ad22c5be79dd9bba7d9003224192c61048d75a05",
+    "_id": "3ed30983-22bd-4ffd-b5f2-86f6753596ed",
+    "_rev": 1688807395731,
+    "installationUrl": "https://userstyles.world/style/908",
+    "updateDate": 1654744499357,
+    "id": 16
+  }
+]
