@@ -1,0 +1,941 @@
+{
+   "ActionInfo" : [
+      {
+         "ActionContent" : {
+            "ActionKey" : 0,
+            "ActionMacroEvents" : [
+               {
+                  "Action" : "down",
+                  "Button" : 4,
+                  "Delay" : "1",
+                  "Type" : 9
+               },
+               {
+                  "Action" : "down",
+                  "Button" : 61,
+                  "Delay" : "2",
+                  "Type" : 10
+               },
+               {
+                  "Action" : "up",
+                  "Button" : 61,
+                  "Delay" : "3",
+                  "Type" : 10
+               },
+               {
+                  "Action" : "up",
+                  "Button" : 4,
+                  "Delay" : "4",
+                  "Type" : 9
+               }
+            ],
+            "ActionMedia" : 0,
+            "ActionText" : ""
+         },
+         "ActionName" : "自定义按键1",
+         "ActionTextFlag" : 0,
+         "ActionType" : 2
+      },
+      {
+         "ActionContent" : {
+            "ActionKey" : 2097408,
+            "ActionMacroEvents" : [
+               {
+                  "Action" : "down",
+                  "Button" : 1,
+                  "Delay" : "1",
+                  "Type" : 9
+               },
+               {
+                  "Action" : "down",
+                  "Button" : 4,
+                  "Delay" : "2",
+                  "Type" : 9
+               },
+               {
+                  "Action" : "down",
+                  "Button" : 6,
+                  "Delay" : "3",
+                  "Type" : 10
+               }
+            ],
+            "ActionMedia" : 0,
+            "ActionText" : ""
+         },
+         "ActionName" : "自定义按键2",
+         "ActionTextFlag" : 0,
+         "ActionType" : 2
+      },
+      {
+         "ActionContent" : {
+            "ActionKey" : 0,
+            "ActionMacroEvents" : [
+               {
+                  "Action" : "down",
+                  "Button" : 1,
+                  "Delay" : "1",
+                  "Type" : 9
+               },
+               {
+                  "Action" : "down",
+                  "Button" : 25,
+                  "Delay" : "2",
+                  "Type" : 10
+               },
+               {
+                  "Action" : "up",
+                  "Button" : 25,
+                  "Delay" : "3",
+                  "Type" : 10
+               },
+               {
+                  "Action" : "up",
+                  "Button" : 1,
+                  "Delay" : "4",
+                  "Type" : 9
+               }
+            ],
+            "ActionMedia" : 0,
+            "ActionText" : ""
+         },
+         "ActionName" : "自定义按键3",
+         "ActionTextFlag" : 0,
+         "ActionType" : 2
+      },
+      {
+         "ActionContent" : {
+            "ActionKey" : 0,
+            "ActionMacroEvents" : [
+               {
+                  "Action" : "down",
+                  "Button" : 1,
+                  "Delay" : "1",
+                  "Type" : 9
+               },
+               {
+                  "Action" : "down",
+                  "Button" : 25,
+                  "Delay" : "2",
+                  "Type" : 10
+               },
+               {
+                  "Action" : "up",
+                  "Button" : 25,
+                  "Delay" : "3",
+                  "Type" : 10
+               },
+               {
+                  "Action" : "up",
+                  "Button" : 1,
+                  "Delay" : "4",
+                  "Type" : 9
+               }
+            ],
+            "ActionMedia" : 0,
+            "ActionText" : ""
+         },
+         "ActionName" : "自定义按键4",
+         "ActionTextFlag" : 0,
+         "ActionType" : 2
+      },
+      {
+         "ActionContent" : {
+            "ActionKey" : 2097192,
+            "ActionMedia" : 0,
+            "ActionText" : ""
+         },
+         "ActionName" : "自定义按键5",
+         "ActionTextFlag" : 0,
+         "ActionType" : 1
+      }
+   ],
+   "DPIStages" : null,
+   "DeviceBasicInfo" : {
+      "DevciesChipmodel" : "VS11K09A",
+      "DeviceNUMInfo" : "eevision_A_kb_001_20180108_ak60",
+      "DeviceName" : "keyboard",
+      "DeviceType" : "keyboard",
+      "PID" : 4103,
+      "SensorModel" : 0,
+      "VID" : 3141
+   },
+   "KeyList" : [
+      {
+         "ActionLink" : 0,
+         "ActionLinkIndex" : -1,
+         "Assignment" : 2097193,
+         "DefaultAssignment" : 2097193
+      },
+      {
+         "ActionLink" : 0,
+         "ActionLinkIndex" : -1,
+         "Assignment" : 2097210,
+         "DefaultAssignment" : 2097210
+      },
+      {
+         "ActionLink" : 0,
+         "ActionLinkIndex" : -1,
+         "Assignment" : 2097211,
+         "DefaultAssignment" : 2097211
+      },
+      {
+         "ActionLink" : 0,
+         "ActionLinkIndex" : -1,
+         "Assignment" : 2097212,
+         "DefaultAssignment" : 2097212
+      },
+      {
+         "ActionLink" : 0,
+         "ActionLinkIndex" : -1,
+         "Assignment" : 2097213,
+         "DefaultAssignment" : 2097213
+      },
+      {
+         "ActionLink" : 0,
+         "ActionLinkIndex" : -1,
+         "Assignment" : 2097214,
+         "DefaultAssignment" : 2097214
+      },
+      {
+         "ActionLink" : 0,
+         "ActionLinkIndex" : -1,
+         "Assignment" : 2097215,
+         "DefaultAssignment" : 2097215
+      },
+      {
+         "ActionLink" : 0,
+         "ActionLinkIndex" : -1,
+         "Assignment" : 2097216,
+         "DefaultAssignment" : 2097216
+      },
+      {
+         "ActionLink" : 0,
+         "ActionLinkIndex" : -1,
+         "Assignment" : 2097217,
+         "DefaultAssignment" : 2097217
+      },
+      {
+         "ActionLink" : 0,
+         "ActionLinkIndex" : -1,
+         "Assignment" : 2097218,
+         "DefaultAssignment" : 2097218
+      },
+      {
+         "ActionLink" : 0,
+         "ActionLinkIndex" : -1,
+         "Assignment" : 2097219,
+         "DefaultAssignment" : 2097219
+      },
+      {
+         "ActionLink" : 0,
+         "ActionLinkIndex" : -1,
+         "Assignment" : 2097220,
+         "DefaultAssignment" : 2097220
+      },
+      {
+         "ActionLink" : 0,
+         "ActionLinkIndex" : -1,
+         "Assignment" : 2097221,
+         "DefaultAssignment" : 2097221
+      },
+      {
+         "ActionLink" : 0,
+         "ActionLinkIndex" : -1,
+         "Assignment" : 2097222,
+         "DefaultAssignment" : 2097222
+      },
+      {
+         "ActionLink" : 1,
+         "ActionLinkIndex" : 3,
+         "Assignment" : 2097223,
+         "DefaultAssignment" : 2097223
+      },
+      {
+         "ActionLink" : 0,
+         "ActionLinkIndex" : -1,
+         "Assignment" : 2097224,
+         "DefaultAssignment" : 2097224
+      },
+      {
+         "ActionLink" : 1,
+         "ActionLinkIndex" : 0,
+         "Assignment" : 10486528,
+         "DefaultAssignment" : 10486528
+      },
+      {
+         "ActionLink" : 0,
+         "ActionLinkIndex" : -1,
+         "Assignment" : 3183105,
+         "DefaultAssignment" : 3183105
+      },
+      {
+         "ActionLink" : 0,
+         "ActionLinkIndex" : -1,
+         "Assignment" : 3192320,
+         "DefaultAssignment" : 3192320
+      },
+      {
+         "ActionLink" : 0,
+         "ActionLinkIndex" : -1,
+         "Assignment" : 3198208,
+         "DefaultAssignment" : 3198208
+      },
+      {
+         "ActionLink" : 0,
+         "ActionLinkIndex" : -1,
+         "Assignment" : 3192064,
+         "DefaultAssignment" : 3192064
+      },
+      {
+         "ActionLink" : 0,
+         "ActionLinkIndex" : -1,
+         "Assignment" : 2097205,
+         "DefaultAssignment" : 2097205
+      },
+      {
+         "ActionLink" : 0,
+         "ActionLinkIndex" : -1,
+         "Assignment" : 2097182,
+         "DefaultAssignment" : 2097182
+      },
+      {
+         "ActionLink" : 0,
+         "ActionLinkIndex" : -1,
+         "Assignment" : 2097183,
+         "DefaultAssignment" : 2097183
+      },
+      {
+         "ActionLink" : 0,
+         "ActionLinkIndex" : -1,
+         "Assignment" : 2097184,
+         "DefaultAssignment" : 2097184
+      },
+      {
+         "ActionLink" : 0,
+         "ActionLinkIndex" : -1,
+         "Assignment" : 2097185,
+         "DefaultAssignment" : 2097185
+      },
+      {
+         "ActionLink" : 0,
+         "ActionLinkIndex" : -1,
+         "Assignment" : 2097186,
+         "DefaultAssignment" : 2097186
+      },
+      {
+         "ActionLink" : 0,
+         "ActionLinkIndex" : -1,
+         "Assignment" : 2097187,
+         "DefaultAssignment" : 2097187
+      },
+      {
+         "ActionLink" : 0,
+         "ActionLinkIndex" : -1,
+         "Assignment" : 2097188,
+         "DefaultAssignment" : 2097188
+      },
+      {
+         "ActionLink" : 0,
+         "ActionLinkIndex" : -1,
+         "Assignment" : 2097189,
+         "DefaultAssignment" : 2097189
+      },
+      {
+         "ActionLink" : 0,
+         "ActionLinkIndex" : -1,
+         "Assignment" : 2097190,
+         "DefaultAssignment" : 2097190
+      },
+      {
+         "ActionLink" : 0,
+         "ActionLinkIndex" : -1,
+         "Assignment" : 2097191,
+         "DefaultAssignment" : 2097191
+      },
+      {
+         "ActionLink" : 0,
+         "ActionLinkIndex" : -1,
+         "Assignment" : 2097197,
+         "DefaultAssignment" : 2097197
+      },
+      {
+         "ActionLink" : 0,
+         "ActionLinkIndex" : -1,
+         "Assignment" : 2097198,
+         "DefaultAssignment" : 2097198
+      },
+      {
+         "ActionLink" : 0,
+         "ActionLinkIndex" : -1,
+         "Assignment" : 2097194,
+         "DefaultAssignment" : 2097194
+      },
+      {
+         "ActionLink" : 0,
+         "ActionLinkIndex" : -1,
+         "Assignment" : 2097225,
+         "DefaultAssignment" : 2097225
+      },
+      {
+         "ActionLink" : 0,
+         "ActionLinkIndex" : -1,
+         "Assignment" : 2097226,
+         "DefaultAssignment" : 2097226
+      },
+      {
+         "ActionLink" : 0,
+         "ActionLinkIndex" : -1,
+         "Assignment" : 2097227,
+         "DefaultAssignment" : 2097227
+      },
+      {
+         "ActionLink" : 0,
+         "ActionLinkIndex" : -1,
+         "Assignment" : 2097235,
+         "DefaultAssignment" : 2097235
+      },
+      {
+         "ActionLink" : 0,
+         "ActionLinkIndex" : -1,
+         "Assignment" : 2097236,
+         "DefaultAssignment" : 2097236
+      },
+      {
+         "ActionLink" : 0,
+         "ActionLinkIndex" : -1,
+         "Assignment" : 2097237,
+         "DefaultAssignment" : 2097237
+      },
+      {
+         "ActionLink" : 0,
+         "ActionLinkIndex" : -1,
+         "Assignment" : 2097238,
+         "DefaultAssignment" : 2097238
+      },
+      {
+         "ActionLink" : 0,
+         "ActionLinkIndex" : -1,
+         "Assignment" : 2097195,
+         "DefaultAssignment" : 2097195
+      },
+      {
+         "ActionLink" : 0,
+         "ActionLinkIndex" : -1,
+         "Assignment" : 2097172,
+         "DefaultAssignment" : 2097172
+      },
+      {
+         "ActionLink" : 0,
+         "ActionLinkIndex" : -1,
+         "Assignment" : 2097178,
+         "DefaultAssignment" : 2097178
+      },
+      {
+         "ActionLink" : 0,
+         "ActionLinkIndex" : -1,
+         "Assignment" : 2097160,
+         "DefaultAssignment" : 2097160
+      },
+      {
+         "ActionLink" : 0,
+         "ActionLinkIndex" : -1,
+         "Assignment" : 2097173,
+         "DefaultAssignment" : 2097173
+      },
+      {
+         "ActionLink" : 0,
+         "ActionLinkIndex" : -1,
+         "Assignment" : 2097175,
+         "DefaultAssignment" : 2097175
+      },
+      {
+         "ActionLink" : 0,
+         "ActionLinkIndex" : -1,
+         "Assignment" : 2097180,
+         "DefaultAssignment" : 2097180
+      },
+      {
+         "ActionLink" : 0,
+         "ActionLinkIndex" : -1,
+         "Assignment" : 2097176,
+         "DefaultAssignment" : 2097176
+      },
+      {
+         "ActionLink" : 0,
+         "ActionLinkIndex" : -1,
+         "Assignment" : 2097164,
+         "DefaultAssignment" : 2097164
+      },
+      {
+         "ActionLink" : 0,
+         "ActionLinkIndex" : -1,
+         "Assignment" : 2097170,
+         "DefaultAssignment" : 2097170
+      },
+      {
+         "ActionLink" : 0,
+         "ActionLinkIndex" : -1,
+         "Assignment" : 2097171,
+         "DefaultAssignment" : 2097171
+      },
+      {
+         "ActionLink" : 0,
+         "ActionLinkIndex" : -1,
+         "Assignment" : 2097199,
+         "DefaultAssignment" : 2097199
+      },
+      {
+         "ActionLink" : 0,
+         "ActionLinkIndex" : -1,
+         "Assignment" : 2097200,
+         "DefaultAssignment" : 2097200
+      },
+      {
+         "ActionLink" : 0,
+         "ActionLinkIndex" : -1,
+         "Assignment" : 2097201,
+         "DefaultAssignment" : 2097201
+      },
+      {
+         "ActionLink" : 0,
+         "ActionLinkIndex" : -1,
+         "Assignment" : 2097228,
+         "DefaultAssignment" : 2097228
+      },
+      {
+         "ActionLink" : 0,
+         "ActionLinkIndex" : -1,
+         "Assignment" : 2097229,
+         "DefaultAssignment" : 2097229
+      },
+      {
+         "ActionLink" : 0,
+         "ActionLinkIndex" : -1,
+         "Assignment" : 2097230,
+         "DefaultAssignment" : 2097230
+      },
+      {
+         "ActionLink" : 0,
+         "ActionLinkIndex" : -1,
+         "Assignment" : 2097247,
+         "DefaultAssignment" : 2097247
+      },
+      {
+         "ActionLink" : 0,
+         "ActionLinkIndex" : -1,
+         "Assignment" : 2097248,
+         "DefaultAssignment" : 2097248
+      },
+      {
+         "ActionLink" : 0,
+         "ActionLinkIndex" : -1,
+         "Assignment" : 2097249,
+         "DefaultAssignment" : 2097249
+      },
+      {
+         "ActionLink" : 0,
+         "ActionLinkIndex" : -1,
+         "Assignment" : 2097152,
+         "DefaultAssignment" : 2097152
+      },
+      {
+         "ActionLink" : 1,
+         "ActionLinkIndex" : 4,
+         "Assignment" : 2097209,
+         "DefaultAssignment" : 2097209
+      },
+      {
+         "ActionLink" : 0,
+         "ActionLinkIndex" : -1,
+         "Assignment" : 2097156,
+         "DefaultAssignment" : 2097156
+      },
+      {
+         "ActionLink" : 0,
+         "ActionLinkIndex" : -1,
+         "Assignment" : 2097174,
+         "DefaultAssignment" : 2097174
+      },
+      {
+         "ActionLink" : 0,
+         "ActionLinkIndex" : -1,
+         "Assignment" : 2097159,
+         "DefaultAssignment" : 2097159
+      },
+      {
+         "ActionLink" : 0,
+         "ActionLinkIndex" : -1,
+         "Assignment" : 2097161,
+         "DefaultAssignment" : 2097161
+      },
+      {
+         "ActionLink" : 0,
+         "ActionLinkIndex" : -1,
+         "Assignment" : 2097162,
+         "DefaultAssignment" : 2097162
+      },
+      {
+         "ActionLink" : 0,
+         "ActionLinkIndex" : -1,
+         "Assignment" : 2097163,
+         "DefaultAssignment" : 2097163
+      },
+      {
+         "ActionLink" : 0,
+         "ActionLinkIndex" : -1,
+         "Assignment" : 2097165,
+         "DefaultAssignment" : 2097165
+      },
+      {
+         "ActionLink" : 0,
+         "ActionLinkIndex" : -1,
+         "Assignment" : 2097166,
+         "DefaultAssignment" : 2097166
+      },
+      {
+         "ActionLink" : 0,
+         "ActionLinkIndex" : -1,
+         "Assignment" : 2097167,
+         "DefaultAssignment" : 2097167
+      },
+      {
+         "ActionLink" : 0,
+         "ActionLinkIndex" : -1,
+         "Assignment" : 2097203,
+         "DefaultAssignment" : 2097203
+      },
+      {
+         "ActionLink" : 0,
+         "ActionLinkIndex" : -1,
+         "Assignment" : 2097204,
+         "DefaultAssignment" : 2097204
+      },
+      {
+         "ActionLink" : 0,
+         "ActionLinkIndex" : -1,
+         "Assignment" : 2097192,
+         "DefaultAssignment" : 2097192
+      },
+      {
+         "ActionLink" : 0,
+         "ActionLinkIndex" : -1,
+         "Assignment" : 2097244,
+         "DefaultAssignment" : 2097244
+      },
+      {
+         "ActionLink" : 0,
+         "ActionLinkIndex" : -1,
+         "Assignment" : 2097245,
+         "DefaultAssignment" : 2097245
+      },
+      {
+         "ActionLink" : 0,
+         "ActionLinkIndex" : -1,
+         "Assignment" : 2097246,
+         "DefaultAssignment" : 2097246
+      },
+      {
+         "ActionLink" : 0,
+         "ActionLinkIndex" : -1,
+         "Assignment" : 2097152,
+         "DefaultAssignment" : 2097152
+      },
+      {
+         "ActionLink" : 0,
+         "ActionLinkIndex" : -1,
+         "Assignment" : 2097152,
+         "DefaultAssignment" : 2097152
+      },
+      {
+         "ActionLink" : 0,
+         "ActionLinkIndex" : -1,
+         "Assignment" : 2097152,
+         "DefaultAssignment" : 2097152
+      },
+      {
+         "ActionLink" : 0,
+         "ActionLinkIndex" : -1,
+         "Assignment" : 2097152,
+         "DefaultAssignment" : 2097152
+      },
+      {
+         "ActionLink" : 0,
+         "ActionLinkIndex" : -1,
+         "Assignment" : 2097152,
+         "DefaultAssignment" : 2097152
+      },
+      {
+         "ActionLink" : 0,
+         "ActionLinkIndex" : -1,
+         "Assignment" : 2097664,
+         "DefaultAssignment" : 2097664
+      },
+      {
+         "ActionLink" : 0,
+         "ActionLinkIndex" : -1,
+         "Assignment" : 2097181,
+         "DefaultAssignment" : 2097181
+      },
+      {
+         "ActionLink" : 0,
+         "ActionLinkIndex" : -1,
+         "Assignment" : 2097179,
+         "DefaultAssignment" : 2097179
+      },
+      {
+         "ActionLink" : 0,
+         "ActionLinkIndex" : -1,
+         "Assignment" : 2097158,
+         "DefaultAssignment" : 2097158
+      },
+      {
+         "ActionLink" : 0,
+         "ActionLinkIndex" : -1,
+         "Assignment" : 2097177,
+         "DefaultAssignment" : 2097177
+      },
+      {
+         "ActionLink" : 0,
+         "ActionLinkIndex" : -1,
+         "Assignment" : 2097157,
+         "DefaultAssignment" : 2097157
+      },
+      {
+         "ActionLink" : 0,
+         "ActionLinkIndex" : -1,
+         "Assignment" : 2097169,
+         "DefaultAssignment" : 2097169
+      },
+      {
+         "ActionLink" : 0,
+         "ActionLinkIndex" : -1,
+         "Assignment" : 2097168,
+         "DefaultAssignment" : 2097168
+      },
+      {
+         "ActionLink" : 0,
+         "ActionLinkIndex" : -1,
+         "Assignment" : 2097206,
+         "DefaultAssignment" : 2097206
+      },
+      {
+         "ActionLink" : 0,
+         "ActionLinkIndex" : -1,
+         "Assignment" : 2097207,
+         "DefaultAssignment" : 2097207
+      },
+      {
+         "ActionLink" : 0,
+         "ActionLinkIndex" : -1,
+         "Assignment" : 2097208,
+         "DefaultAssignment" : 2097208
+      },
+      {
+         "ActionLink" : 0,
+         "ActionLinkIndex" : -1,
+         "Assignment" : 2105344,
+         "DefaultAssignment" : 2105344
+      },
+      {
+         "ActionLink" : 0,
+         "ActionLinkIndex" : -1,
+         "Assignment" : 2097234,
+         "DefaultAssignment" : 2097234
+      },
+      {
+         "ActionLink" : 0,
+         "ActionLinkIndex" : -1,
+         "Assignment" : 2097241,
+         "DefaultAssignment" : 2097241
+      },
+      {
+         "ActionLink" : 0,
+         "ActionLinkIndex" : -1,
+         "Assignment" : 2097242,
+         "DefaultAssignment" : 2097242
+      },
+      {
+         "ActionLink" : 0,
+         "ActionLinkIndex" : -1,
+         "Assignment" : 2097243,
+         "DefaultAssignment" : 2097243
+      },
+      {
+         "ActionLink" : 0,
+         "ActionLinkIndex" : -1,
+         "Assignment" : 2097152,
+         "DefaultAssignment" : 2097152
+      },
+      {
+         "ActionLink" : 0,
+         "ActionLinkIndex" : -1,
+         "Assignment" : 2097152,
+         "DefaultAssignment" : 2097152
+      },
+      {
+         "ActionLink" : 0,
+         "ActionLinkIndex" : -1,
+         "Assignment" : 2097252,
+         "DefaultAssignment" : 2097252
+      },
+      {
+         "ActionLink" : 0,
+         "ActionLinkIndex" : -1,
+         "Assignment" : 2097152,
+         "DefaultAssignment" : 2097152
+      },
+      {
+         "ActionLink" : 0,
+         "ActionLinkIndex" : -1,
+         "Assignment" : 2097152,
+         "DefaultAssignment" : 2097152
+      },
+      {
+         "ActionLink" : 0,
+         "ActionLinkIndex" : -1,
+         "Assignment" : 2097408,
+         "DefaultAssignment" : 2097408
+      },
+      {
+         "ActionLink" : 0,
+         "ActionLinkIndex" : -1,
+         "Assignment" : 2099200,
+         "DefaultAssignment" : 2099200
+      },
+      {
+         "ActionLink" : 0,
+         "ActionLinkIndex" : -1,
+         "Assignment" : 2098176,
+         "DefaultAssignment" : 2098176
+      },
+      {
+         "ActionLink" : 0,
+         "ActionLinkIndex" : -1,
+         "Assignment" : 2097196,
+         "DefaultAssignment" : 2097196
+      },
+      {
+         "ActionLink" : 0,
+         "ActionLinkIndex" : -1,
+         "Assignment" : 2113536,
+         "DefaultAssignment" : 2113536
+      },
+      {
+         "ActionLink" : 0,
+         "ActionLinkIndex" : -1,
+         "Assignment" : 10486016,
+         "DefaultAssignment" : 10486016
+      },
+      {
+         "ActionLink" : 1,
+         "ActionLinkIndex" : 1,
+         "Assignment" : 2097253,
+         "DefaultAssignment" : 2097253
+      },
+      {
+         "ActionLink" : 1,
+         "ActionLinkIndex" : 2,
+         "Assignment" : 2101248,
+         "DefaultAssignment" : 2101248
+      },
+      {
+         "ActionLink" : 0,
+         "ActionLinkIndex" : -1,
+         "Assignment" : 2097232,
+         "DefaultAssignment" : 2097232
+      },
+      {
+         "ActionLink" : 0,
+         "ActionLinkIndex" : -1,
+         "Assignment" : 2097233,
+         "DefaultAssignment" : 2097233
+      },
+      {
+         "ActionLink" : 0,
+         "ActionLinkIndex" : -1,
+         "Assignment" : 2097231,
+         "DefaultAssignment" : 2097231
+      },
+      {
+         "ActionLink" : 0,
+         "ActionLinkIndex" : -1,
+         "Assignment" : 2097250,
+         "DefaultAssignment" : 2097250
+      },
+      {
+         "ActionLink" : 0,
+         "ActionLinkIndex" : -1,
+         "Assignment" : 2097251,
+         "DefaultAssignment" : 2097251
+      },
+      {
+         "ActionLink" : 0,
+         "ActionLinkIndex" : -1,
+         "Assignment" : 2097240,
+         "DefaultAssignment" : 2097240
+      },
+      {
+         "ActionLink" : 0,
+         "ActionLinkIndex" : -1,
+         "Assignment" : 2097239,
+         "DefaultAssignment" : 2097239
+      },
+      {
+         "ActionLink" : 0,
+         "ActionLinkIndex" : -1,
+         "Assignment" : 13672961,
+         "DefaultAssignment" : 13672961
+      },
+      {
+         "ActionLink" : 0,
+         "ActionLinkIndex" : -1,
+         "Assignment" : 13672962,
+         "DefaultAssignment" : 13672962
+      },
+      {
+         "ActionLink" : 0,
+         "ActionLinkIndex" : -1,
+         "Assignment" : 13672963,
+         "DefaultAssignment" : 13672963
+      },
+      {
+         "ActionLink" : 0,
+         "ActionLinkIndex" : -1,
+         "Assignment" : 13672964,
+         "DefaultAssignment" : 13672964
+      },
+      {
+         "ActionLink" : 0,
+         "ActionLinkIndex" : -1,
+         "Assignment" : 13672965,
+         "DefaultAssignment" : 13672965
+      },
+      {
+         "ActionLink" : 0,
+         "ActionLinkIndex" : -1,
+         "Assignment" : 2129920,
+         "DefaultAssignment" : 2129920
+      }
+   ],
+   "LightInfo" : {
+      "Blue" : 0,
+      "Fx" : 0,
+      "Green" : 0,
+      "Light" : 4,
+      "LightOpenFlag" : false,
+      "MultiColor" : true,
+      "Red" : 255,
+      "SelectItem" : 0,
+      "Speed" : 2
+   },
+   "MacroInfo" : null,
+   "SystemStages" : {
+      "Key6Flag" : 1,
+      "Repeat" : 16,
+      "RepeatDelay" : 0,
+      "ReportSelectItem" : 3,
+      "WFlag" : 0,
+      "WinFlag" : 0
+   }
+}
+
