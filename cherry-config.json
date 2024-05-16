@@ -6,33 +6,27 @@
             "ActionMacroEvents" : [
                {
                   "Action" : "down",
-                  "Button" : 4,
-                  "Delay" : "1",
+                  "Button" : 1,
+                  "Delay" : "0",
                   "Type" : 9
                },
                {
                   "Action" : "down",
-                  "Button" : 61,
-                  "Delay" : "2",
-                  "Type" : 10
-               },
-               {
-                  "Action" : "up",
-                  "Button" : 61,
-                  "Delay" : "3",
-                  "Type" : 10
-               },
-               {
-                  "Action" : "up",
                   "Button" : 4,
-                  "Delay" : "4",
+                  "Delay" : "0",
                   "Type" : 9
+               },
+               {
+                  "Action" : "down",
+                  "Button" : 20,
+                  "Delay" : "0",
+                  "Type" : 10
                }
             ],
             "ActionMedia" : 0,
             "ActionText" : ""
          },
-         "ActionName" : "自定义按键1",
+         "ActionName" : "调用qq",
          "ActionTextFlag" : 0,
          "ActionType" : 2
       },
@@ -42,27 +36,69 @@
             "ActionMacroEvents" : [
                {
                   "Action" : "down",
-                  "Button" : 1,
-                  "Delay" : "1",
+                  "Button" : 4,
+                  "Delay" : "0",
                   "Type" : 9
                },
                {
                   "Action" : "down",
-                  "Button" : 4,
-                  "Delay" : "2",
+                  "Button" : 1,
+                  "Delay" : "0",
                   "Type" : 9
                },
                {
                   "Action" : "down",
                   "Button" : 6,
-                  "Delay" : "3",
+                  "Delay" : "0",
+                  "Type" : 10
+               },
+               {
+                  "Action" : "up",
+                  "Button" : 4,
+                  "Delay" : "0",
+                  "Type" : 9
+               },
+               {
+                  "Action" : "up",
+                  "Button" : 6,
+                  "Delay" : "0",
+                  "Type" : 10
+               },
+               {
+                  "Action" : "up",
+                  "Button" : 1,
+                  "Delay" : "0",
+                  "Type" : 9
+               }
+            ],
+            "ActionMedia" : 0,
+            "ActionText" : ""
+         },
+         "ActionName" : "qq截图",
+         "ActionTextFlag" : 0,
+         "ActionType" : 2
+      },
+      {
+         "ActionContent" : {
+            "ActionKey" : 0,
+            "ActionMacroEvents" : [
+               {
+                  "Action" : "down",
+                  "Button" : 70,
+                  "Delay" : "0",
+                  "Type" : 10
+               },
+               {
+                  "Action" : "up",
+                  "Button" : 70,
+                  "Delay" : "0",
                   "Type" : 10
                }
             ],
             "ActionMedia" : 0,
             "ActionText" : ""
          },
-         "ActionName" : "自定义按键2",
+         "ActionName" : "截图",
          "ActionTextFlag" : 0,
          "ActionType" : 2
       },
@@ -73,68 +109,32 @@
                {
                   "Action" : "down",
                   "Button" : 1,
-                  "Delay" : "1",
+                  "Delay" : "0",
                   "Type" : 9
                },
                {
                   "Action" : "down",
                   "Button" : 25,
-                  "Delay" : "2",
+                  "Delay" : "0",
                   "Type" : 10
                },
                {
                   "Action" : "up",
                   "Button" : 25,
-                  "Delay" : "3",
+                  "Delay" : "0",
                   "Type" : 10
                },
                {
                   "Action" : "up",
                   "Button" : 1,
-                  "Delay" : "4",
+                  "Delay" : "0",
                   "Type" : 9
                }
             ],
             "ActionMedia" : 0,
             "ActionText" : ""
          },
-         "ActionName" : "自定义按键3",
-         "ActionTextFlag" : 0,
-         "ActionType" : 2
-      },
-      {
-         "ActionContent" : {
-            "ActionKey" : 0,
-            "ActionMacroEvents" : [
-               {
-                  "Action" : "down",
-                  "Button" : 1,
-                  "Delay" : "1",
-                  "Type" : 9
-               },
-               {
-                  "Action" : "down",
-                  "Button" : 25,
-                  "Delay" : "2",
-                  "Type" : 10
-               },
-               {
-                  "Action" : "up",
-                  "Button" : 25,
-                  "Delay" : "3",
-                  "Type" : 10
-               },
-               {
-                  "Action" : "up",
-                  "Button" : 1,
-                  "Delay" : "4",
-                  "Type" : 9
-               }
-            ],
-            "ActionMedia" : 0,
-            "ActionText" : ""
-         },
-         "ActionName" : "自定义按键4",
+         "ActionName" : "右面Ctrl，粘贴",
          "ActionTextFlag" : 0,
          "ActionType" : 2
       },
@@ -144,9 +144,105 @@
             "ActionMedia" : 0,
             "ActionText" : ""
          },
-         "ActionName" : "自定义按键5",
+         "ActionName" : "caps",
          "ActionTextFlag" : 0,
          "ActionType" : 1
+      },
+      {
+         "ActionContent" : {
+            "ActionKey" : 0,
+            "ActionMacroEvents" : [
+               {
+                  "Action" : "down",
+                  "Button" : 2,
+                  "Delay" : "0",
+                  "Type" : 9
+               },
+               {
+                  "Action" : "down",
+                  "Button" : 4,
+                  "Delay" : "0",
+                  "Type" : 9
+               },
+               {
+                  "Action" : "down",
+                  "Button" : 9,
+                  "Delay" : "0",
+                  "Type" : 10
+               },
+               {
+                  "Action" : "up",
+                  "Button" : 9,
+                  "Delay" : "10",
+                  "Type" : 10
+               },
+               {
+                  "Action" : "up",
+                  "Button" : 4,
+                  "Delay" : "10",
+                  "Type" : 9
+               },
+               {
+                  "Action" : "up",
+                  "Button" : 2,
+                  "Delay" : "10",
+                  "Type" : 9
+               },
+               {
+                  "Action" : "down",
+                  "Button" : 1,
+                  "Delay" : "20",
+                  "Type" : 9
+               },
+               {
+                  "Action" : "down",
+                  "Button" : 4,
+                  "Delay" : "20",
+                  "Type" : 10
+               },
+               {
+                  "Action" : "up",
+                  "Button" : 1,
+                  "Delay" : "30",
+                  "Type" : 9
+               },
+               {
+                  "Action" : "up",
+                  "Button" : 4,
+                  "Delay" : "30",
+                  "Type" : 10
+               },
+               {
+                  "Action" : "down",
+                  "Button" : 1,
+                  "Delay" : "40",
+                  "Type" : 9
+               },
+               {
+                  "Action" : "down",
+                  "Button" : 6,
+                  "Delay" : "40",
+                  "Type" : 10
+               },
+               {
+                  "Action" : "up",
+                  "Button" : 6,
+                  "Delay" : "50",
+                  "Type" : 10
+               },
+               {
+                  "Action" : "up",
+                  "Button" : 1,
+                  "Delay" : "50",
+                  "Type" : 9
+               }
+            ],
+            "ActionMedia" : 0,
+            "ActionText" : ""
+         },
+         "ActionName" : "提交，格式化，全选，复制",
+         "ActionTextFlag" : 0,
+         "ActionType" : 2
       }
    ],
    "DPIStages" : null,
@@ -246,13 +342,13 @@
       },
       {
          "ActionLink" : 1,
-         "ActionLinkIndex" : 3,
+         "ActionLinkIndex" : 2,
          "Assignment" : 2097223,
          "DefaultAssignment" : 2097223
       },
       {
-         "ActionLink" : 0,
-         "ActionLinkIndex" : -1,
+         "ActionLink" : 1,
+         "ActionLinkIndex" : 5,
          "Assignment" : 2097224,
          "DefaultAssignment" : 2097224
       },
@@ -834,7 +930,7 @@
       },
       {
          "ActionLink" : 1,
-         "ActionLinkIndex" : 2,
+         "ActionLinkIndex" : 3,
          "Assignment" : 2101248,
          "DefaultAssignment" : 2101248
       },
@@ -919,14 +1015,30 @@
    ],
    "LightInfo" : {
       "Blue" : 0,
+      "DeepsleepTimeH" : 0,
+      "DeepsleepTimeL" : 0,
+      "Distime" : 0,
+      "FunPointColorB" : 0,
+      "FunPointColorG" : 0,
+      "FunPointColorR" : 0,
       "Fx" : 0,
       "Green" : 0,
       "Light" : 4,
-      "LightOpenFlag" : false,
-      "MultiColor" : true,
-      "Red" : 255,
-      "SelectItem" : 0,
-      "Speed" : 2
+      "LightOpenFlag" : 0,
+      "MultiColor" : 0,
+      "PairPointColorB" : 0,
+      "PairPointColorG" : 0,
+      "PairPointColorR" : 0,
+      "Red" : 0,
+      "SelectItem" : 20,
+      "Setdelay" : 0,
+      "Setlock" : 0,
+      "Speed" : 2,
+      "SuspendTimeH" : 0,
+      "SuspendTimeL" : 0,
+      "WorkModePointColorB" : 0,
+      "WorkModePointColorG" : 0,
+      "WorkModePointColorR" : 0
    },
    "MacroInfo" : null,
    "SystemStages" : {
