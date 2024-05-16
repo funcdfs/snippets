@@ -1,29 +1,139 @@
-using namespace std; 
+template <typename A, typename B>
+string to_string(pair<A, B> p);
 
-#define dbg(...) pr("(", ">>> ", __LINE__, ")[", #__VA_ARGS__, "]: ["), pc(__VA_ARGS__)
-// #define dbg(...) pr("(", __func__, " ", __LINE__, ")[", #__VA_ARGS__, "]: ["), pc(__VA_ARGS__)
+template <typename A, typename B, typename C>
+string to_string(tuple<A, B, C> p);
 
-template<class T1, class T2> istream& operator>>(istream& is, pair<T1,T2>& p) { is >> p.first >> p.second; return is; }
-template<class T> istream& operator>>(istream& is, vector<T>& v) { for(auto& x: v) is >> x; return is; }
-auto re = [](auto&&... args) { (cin >> ... >> args); };
+template <typename A, typename B, typename C, typename D>
+string to_string(tuple<A, B, C, D> p);
 
-template<class T1, class T2> ostream& operator<<(ostream& os, pair<T1,T2> p) 
-{ os << "(" << p.first << ", " << p.second << ")"; return os; }
+string to_string(const string& s) {
+  return '"' + s + '"';
+}
 
-#define Vout(Con) template<class T> ostream& operator<<(ostream& os, Con<T>& v) { bool fst = 1; os << "{"; \
-for(auto& x: v) { if(!fst) os << ", "; os << x; fst = 0; } os << "}"; return os; }
-#define Vout2(Con) template<class T1, class T2> ostream& operator<<(ostream& os, Con<T1,T2>& v) { bool fst = 1; os << "{"; \
-for(auto& [x, y]: v) { if(!fst) os << ", "; os << x << ": " << y; fst = 0; } os << "}"; return os; }
-Vout(vector) Vout(set) Vout(multiset) Vout2(map)
+string to_string(const char* s) {
+  return to_string((string) s);
+}
 
-#define Out(f, delim, lst) auto f = [](auto&& arg, auto&&... args) { cerr << arg; ((cerr << delim << args), ...); cerr << lst; };
-Out(pr, "", "") Out(pw, ' ', ' ') Out(ps, ' ', '\n';) Out(pc, ", ", "]" << '\n';)
+string to_string(bool b) {
+  return (b ? "true" : "false");
+}
 
-auto ptrace = [](const char* name, auto&& A, auto&&... rest) {
-    const char* open = strchr(name, '['); cerr.write(name, open-name);
-    ((cerr << '[' << rest << ']'), ...); cerr << " = " << A << '\n';;
-};
-/*
+string to_string(vector<bool> v) {
+  bool first = true;
+  string res = "{";
+  for (int i = 0; i < static_cast<int>(v.size()); i++) {
+    if (!first) {
+      res += ", ";
+    }
+    first = false;
+    res += to_string(v[i]);
+  }
+  res += "}";
+  return res;
+}
+
+template <size_t N>
+string to_string(bitset<N> v) {
+  string res = "";
+  for (size_t i = 0; i < N; i++) {
+    res += static_cast<char>('0' + v[i]);
+  }
+  return res;
+}
+
+template <typename A>
+string to_string(A v) {
+  bool first = true;
+  string res = "{";
+  for (const auto &x : v) {
+    if (!first) {
+      res += ", ";
+    }
+    first = false;
+    res += to_string(x);
+  }
+  res += "}";
+  return res;
+}
+
+template <typename A, typename B>
+string to_string(pair<A, B> p) {
+  return "(" + to_string(p.first) + ", " + to_string(p.second) + ")";
+}
+
+template <typename A, typename B, typename C>
+string to_string(tuple<A, B, C> p) {
+  return "(" + to_string(get<0>(p)) + ", " + to_string(get<1>(p)) + ", " + to_string(get<2>(p)) + ")";
+}
+
+template <typename A, typename B, typename C, typename D>
+string to_string(tuple<A, B, C, D> p) {
+  return "(" + to_string(get<0>(p)) + ", " + to_string(get<1>(p)) + ", " + to_string(get<2>(p)) + ", " + to_string(get<3>(p)) + ")";
+}
+
+void debug_out() { cerr << endl; }
+
+template <typename Head, typename... Tail>
+void debug_out(Head H, Tail... T) {
+  cerr << " " << to_string(H);
+  debug_out(T...);
+}
+
+#ifdef LOCAL
+#define dbg(...) cerr << __LINE__ << "🎉 [" << (#__VA_ARGS__ == "_case" ? "✨✨" : #__VA_ARGS__) << "]:", debug_out(__VA_ARGS__)
+// #define dbg(...) cerr << "[" << #__VA_ARGS__ << "]:", debug_out(__VA_ARGS__)
+#else
+#define dbg(...) 42
+#endif
+
+// idea from tourist
+// https://github.com/the-tourist/algo/
+// mod:
+// change funciton name to dbg (rust-lang std::dbg version)
+// make dbg info contains line infomation (rust-lang std::dbg version)
+/**
+ * colorful output for easily reading: 
+ * 
+ * 
+17🎉 [✨✨]: 1
+30🎉 [x, sum]: 31 31
+42🎉 ["final", sum]: "final" 30
+17🎉 [✨✨]: 2
+30🎉 [x, sum]: 6 6
+42🎉 ["final", sum]: "final" 6
+30🎉 [x, sum]: 3 9
+42🎉 ["final", sum]: "final" 8
+30🎉 [x, sum]: 7 15
+42🎉 ["final", sum]: "final" 14
+30🎉 [x, sum]: 2 16
+42🎉 ["final", sum]: "final" 16
+30🎉 [x, sum]: 5 21
+42🎉 ["final", sum]: "final" 20
+30🎉 [x, sum]: 4 24
+42🎉 ["final", sum]: "final" 24
+17🎉 [✨✨]: 3
+30🎉 [x, sum]: 3 3
+42🎉 ["final", sum]: "final" 2
+30🎉 [x, sum]: 10 12
+42🎉 ["final", sum]: "final" 12
+30🎉 [x, sum]: 11 23
+42🎉 ["final", sum]: "final" 22
+17🎉 [✨✨]: 4
+30🎉 [x, sum]: 7 7
+42🎉 ["final", sum]: "final" 6
+30🎉 [x, sum]: 13 19
+42🎉 ["final", sum]: "final" 18
+30🎉 [x, sum]: 11 29
+42🎉 ["final", sum]: "final" 28
+30🎉 [x, sum]: 19 47
+42🎉 ["final", sum]: "final" 46
+30🎉 [x, sum]: 1 47
+42🎉 ["final", sum]: "final" 46
+
+**/
+
+/* 
 For Local Debugging Purposes
 usage: 
 
@@ -33,5 +143,7 @@ usage:
 #define dbg(...) 1
 #endif
 
+dbg(_case): output: [✨✨]: _case.value
 dbg(any);
+
 */
